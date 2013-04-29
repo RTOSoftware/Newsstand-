@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller - Offers-->
+        <scene sceneID="7oZ-tu-8av">
+            <objects>
+                <navigationController storyboardIdentifier="OfferNav" definesPresentationContext="YES" id="3pO-HW-z0G" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Offers" id="5Ie-fl-dXX"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="zLs-ek-lKI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="rootViewController" id="U8C-8N-jHD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FmL-rE-fzA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2815" y="1305"/>
+        </scene>
+        <!--Offer View Controller - NAFA Magazine Offers-->
+        <scene sceneID="13">
+            <objects>
+                <viewController id="3" customClass="OfferViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="UWs-cG-OLO">
+                                <rect key="frame" x="0.0" y="745" width="768" height="215"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="iAw-np-b2z">
+                                <rect key="frame" x="0.0" y="92" width="768" height="646"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1019607843" green="0.1450980392" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" style="whiteLarge" id="d2k-Lh-zlW">
+                                <rect key="frame" x="366" y="437" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo.png" id="MiO-9I-BEA">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="0DB-ZH-apr">
+                                <rect key="frame" x="0.0" y="735" width="768" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ZGE-BR-Ooa">
+                                <rect key="frame" x="0.0" y="100" width="0.0" height="585"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="3" id="sOi-vz-YSz"/>
+                                    <outlet property="delegate" destination="3" id="5b5-Cp-I4E"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.14509803921568626" blue="0.45098039215686275" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <navigationItem key="navigationItem" title="NAFA Magazine Offers" id="Gwc-5n-XL7"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="d2k-Lh-zlW" id="pz4-bN-EDj"/>
+                        <outlet property="imgLogo" destination="MiO-9I-BEA" id="1oF-lg-xQ8"/>
+                        <outlet property="imgView" destination="iAw-np-b2z" id="2GA-Yj-dlU"/>
+                        <outlet property="pscrollView" destination="UWs-cG-OLO" id="iMz-iF-RmU"/>
+                        <outlet property="tblList" destination="ZGE-BR-Ooa" id="wX1-s4-zNS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4250" y="1305"/>
+        </scene>
+        <!--Navigation Controller - Settings-->
+        <scene sceneID="vpj-sN-xsX">
+            <objects>
+                <navigationController storyboardIdentifier="SettingNav" definesPresentationContext="YES" id="3xv-4m-ION" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="2k7-tg-B63"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="0db-Qa-KDy">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yMZ-OV-ZeK" kind="relationship" relationship="rootViewController" id="SFR-xb-of1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nLi-dN-9ee" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2879" y="2649"/>
+        </scene>
+        <!--Settings View Controller - NAFA Magazine Settings-->
+        <scene sceneID="Mxj-Id-Dvg">
+            <objects>
+                <viewController storyboardIdentifier="SettingsView" id="yMZ-OV-ZeK" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HOf-he-Hja">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="46" id="EHm-pJ-KBr">
+                                <rect key="frame" x="34" y="36" width="220" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" image="logo.png" id="BKM-4h-Kta">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JLM-fA-tAs">
+                                <rect key="frame" x="34" y="418" width="220" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Info &amp; Support">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actInfo:" destination="yMZ-OV-ZeK" eventType="touchUpInside" id="7Qo-if-e1N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6jS-kP-H6n">
+                                <rect key="frame" x="34" y="474" width="220" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Privacy and Terms of Use">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actPrivacy:" destination="yMZ-OV-ZeK" eventType="touchUpInside" id="5Ja-j8-0d6"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Tda-ed-k0a">
+                                <rect key="frame" x="335" y="100" width="220" height="301"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.1019607843" green="0.1450980392" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="separatorColor" red="0.1019607843" green="0.1450980392" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yMZ-OV-ZeK" id="9yd-iq-NaE"/>
+                                    <outlet property="delegate" destination="yMZ-OV-ZeK" id="bap-wy-av6"/>
+                                </connections>
+                            </tableView>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="nql-MP-tRc">
+                                <rect key="frame" x="174" y="151" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SubscribeOn:" destination="yMZ-OV-ZeK" eventType="valueChanged" id="LIv-M8-HeF"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="T6E-b5-KLG">
+                                <rect key="frame" x="174" y="222" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="messageOn:" destination="yMZ-OV-ZeK" eventType="valueChanged" id="vMS-Xk-mK6"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Subscribe" lineBreakMode="tailTruncation" minimumFontSize="13" id="iJ1-rf-rXt">
+                                <rect key="frame" x="36" y="145" width="112" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Message" lineBreakMode="tailTruncation" minimumFontSize="10" id="DIj-BK-iEh">
+                                <rect key="frame" x="37" y="222" width="111" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Restore Downloads" lineBreakMode="wordWrap" numberOfLines="2" minimumFontSize="10" enabled="NO" id="Os7-fg-276">
+                                <rect key="frame" x="37" y="262" width="137" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="MEO-wu-nb4">
+                                <rect key="frame" x="174" y="297" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.14509803921568626" blue="0.45098039215686275" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="8Fp-eo-sXh"/>
+                    <navigationItem key="navigationItem" title="NAFA Magazine Settings" id="WV4-7C-9zt"/>
+                    <connections>
+                        <outlet property="contentTable" destination="Tda-ed-k0a" id="RLK-4W-tXT"/>
+                        <outlet property="switchMessage" destination="T6E-b5-KLG" id="NZd-sP-XwP"/>
+                        <outlet property="switchSubscribe" destination="nql-MP-tRc" id="79I-TF-rqF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Alx-lL-eFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4250" y="2657"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBar" id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="1284"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo.png" width="768" height="92"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

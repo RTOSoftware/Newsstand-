@@ -1,0 +1,1438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		784BC22614EC55A000F55047 /* TouchVersionFile */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 784BC22714EC55A000F55047 /* Build configuration list for PBXAggregateTarget "TouchVersionFile" */;
+			buildPhases = (
+				784BC22A14EC55A700F55047 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TouchVersionFile;
+			productName = TouchVersionFile;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		780B416D146E7DAB00DF07F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B416C146E7DAB00DF07F1 /* Foundation.framework */; };
+		780B4290146E7F1200DF07F1 /* PSPDFOutlineElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B423E146E7F1200DF07F1 /* PSPDFOutlineElement.h */; settings = {ATTRIBUTES = (); }; };
+		780B4291146E7F1200DF07F1 /* PSPDFOutlineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B423F146E7F1200DF07F1 /* PSPDFOutlineElement.m */; };
+		780B4292146E7F1200DF07F1 /* PSPDFOutlineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4240146E7F1200DF07F1 /* PSPDFOutlineParser.h */; settings = {ATTRIBUTES = (); }; };
+		780B4293146E7F1200DF07F1 /* PSPDFOutlineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4241146E7F1200DF07F1 /* PSPDFOutlineParser.m */; };
+		780B4294146E7F1200DF07F1 /* PSPDFOutlineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4242146E7F1200DF07F1 /* PSPDFOutlineViewController.h */; settings = {ATTRIBUTES = (); }; };
+		780B4295146E7F1200DF07F1 /* PSPDFOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4243146E7F1200DF07F1 /* PSPDFOutlineViewController.m */; };
+		780B4296146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4245146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		780B4297146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4246146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.m */; };
+		780B4298146E7F1200DF07F1 /* PSPDFDocumentSearcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4247146E7F1200DF07F1 /* PSPDFDocumentSearcher.h */; settings = {ATTRIBUTES = (); }; };
+		780B4299146E7F1200DF07F1 /* PSPDFDocumentSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4248146E7F1200DF07F1 /* PSPDFDocumentSearcher.m */; };
+		780B429A146E7F1200DF07F1 /* PSPDFSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4249146E7F1200DF07F1 /* PSPDFSearchResult.h */; settings = {ATTRIBUTES = (); }; };
+		780B429B146E7F1200DF07F1 /* PSPDFSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B424A146E7F1200DF07F1 /* PSPDFSearchResult.m */; };
+		780B429C146E7F1200DF07F1 /* PSPDFSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B424B146E7F1200DF07F1 /* PSPDFSearchViewController.h */; settings = {ATTRIBUTES = (); }; };
+		780B429D146E7F1200DF07F1 /* PSPDFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B424C146E7F1200DF07F1 /* PSPDFSearchViewController.m */; };
+		780B42B7146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4268146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.h */; settings = {ATTRIBUTES = (); }; };
+		780B42B8146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4269146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.m */; };
+		780B42BB146E7F1200DF07F1 /* PSPDFCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B426C146E7F1200DF07F1 /* PSPDFCache.h */; settings = {ATTRIBUTES = (); }; };
+		780B42BC146E7F1200DF07F1 /* PSPDFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B426D146E7F1200DF07F1 /* PSPDFCache.m */; };
+		780B42BD146E7F1200DF07F1 /* PSPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B426E146E7F1200DF07F1 /* PSPDFDocument.h */; settings = {ATTRIBUTES = (); }; };
+		780B42BE146E7F1200DF07F1 /* PSPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B426F146E7F1200DF07F1 /* PSPDFDocument.m */; };
+		780B42BF146E7F1200DF07F1 /* PSPDFGlobalLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4270146E7F1200DF07F1 /* PSPDFGlobalLock.h */; settings = {ATTRIBUTES = (); }; };
+		780B42C0146E7F1200DF07F1 /* PSPDFGlobalLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4271146E7F1200DF07F1 /* PSPDFGlobalLock.m */; };
+		780B42C1146E7F1200DF07F1 /* PSPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4272146E7F1200DF07F1 /* PSPDFKit.h */; settings = {ATTRIBUTES = (); }; };
+		780B42C2146E7F1200DF07F1 /* PSPDFKitGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4273146E7F1200DF07F1 /* PSPDFKitGlobal.h */; settings = {ATTRIBUTES = (); }; };
+		780B42C3146E7F1200DF07F1 /* PSPDFKitGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4274146E7F1200DF07F1 /* PSPDFKitGlobal.m */; };
+		780B42C6146E7F1200DF07F1 /* PSPDFPageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4277146E7F1200DF07F1 /* PSPDFPageInfo.h */; settings = {ATTRIBUTES = (); }; };
+		780B42C7146E7F1200DF07F1 /* PSPDFPageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4278146E7F1200DF07F1 /* PSPDFPageInfo.m */; };
+		780B42C8146E7F1200DF07F1 /* PSPDFPageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4279146E7F1200DF07F1 /* PSPDFPageRenderer.h */; settings = {ATTRIBUTES = (); }; };
+		780B42C9146E7F1200DF07F1 /* PSPDFPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B427A146E7F1200DF07F1 /* PSPDFPageRenderer.m */; };
+		780B42CA146E7F1200DF07F1 /* PSPDFScrobbleBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B427B146E7F1200DF07F1 /* PSPDFScrobbleBar.h */; settings = {ATTRIBUTES = (); }; };
+		780B42CB146E7F1200DF07F1 /* PSPDFScrobbleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B427C146E7F1200DF07F1 /* PSPDFScrobbleBar.m */; };
+		780B42CC146E7F1200DF07F1 /* PSPDFScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B427D146E7F1200DF07F1 /* PSPDFScrollView.h */; settings = {ATTRIBUTES = (); }; };
+		780B42CD146E7F1200DF07F1 /* PSPDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B427E146E7F1200DF07F1 /* PSPDFScrollView.m */; };
+		780B42CE146E7F1200DF07F1 /* PSPDFTilingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B427F146E7F1200DF07F1 /* PSPDFTilingView.h */; settings = {ATTRIBUTES = (); }; };
+		780B42CF146E7F1200DF07F1 /* PSPDFTilingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4280146E7F1200DF07F1 /* PSPDFTilingView.m */; };
+		780B42D0146E7F1200DF07F1 /* PSPDFTransparentToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4281146E7F1200DF07F1 /* PSPDFTransparentToolbar.h */; settings = {ATTRIBUTES = (); }; };
+		780B42D1146E7F1200DF07F1 /* PSPDFTransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4282146E7F1200DF07F1 /* PSPDFTransparentToolbar.m */; };
+		780B42D2146E7F1200DF07F1 /* PSPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4283146E7F1200DF07F1 /* PSPDFViewController.h */; settings = {ATTRIBUTES = (); }; };
+		780B42D3146E7F1200DF07F1 /* PSPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4284146E7F1200DF07F1 /* PSPDFViewController.m */; };
+		780B42D4146E7F1200DF07F1 /* PSPDFViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4285146E7F1200DF07F1 /* PSPDFViewControllerDelegate.h */; settings = {ATTRIBUTES = (); }; };
+		780B42D8146E7F2700DF07F1 /* PSPDFKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 780B42D7146E7F2700DF07F1 /* PSPDFKit-Prefix.pch */; settings = {ATTRIBUTES = (); }; };
+		78178B8714E538EA00541BE8 /* PSPDFPatches.h in Headers */ = {isa = PBXBuildFile; fileRef = 78178B8514E538EA00541BE8 /* PSPDFPatches.h */; };
+		78178B8814E538EA00541BE8 /* PSPDFPatches.h in Headers */ = {isa = PBXBuildFile; fileRef = 78178B8514E538EA00541BE8 /* PSPDFPatches.h */; };
+		78178B8914E538EA00541BE8 /* PSPDFPatches.m in Sources */ = {isa = PBXBuildFile; fileRef = 78178B8614E538EA00541BE8 /* PSPDFPatches.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		78178B8A14E538EA00541BE8 /* PSPDFPatches.m in Sources */ = {isa = PBXBuildFile; fileRef = 78178B8614E538EA00541BE8 /* PSPDFPatches.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		781CFFE314E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 781CFFDF14E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h */; };
+		781CFFE414E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 781CFFDF14E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h */; };
+		781CFFE514E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781CFFE014E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m */; };
+		781CFFE614E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781CFFE014E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m */; };
+		781CFFE714E4F5AD00BD5D50 /* PSYouTubeExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 781CFFE114E4F5AD00BD5D50 /* PSYouTubeExtractor.h */; };
+		781CFFE814E4F5AD00BD5D50 /* PSYouTubeExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 781CFFE114E4F5AD00BD5D50 /* PSYouTubeExtractor.h */; };
+		781CFFE914E4F5AD00BD5D50 /* PSYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 781CFFE214E4F5AD00BD5D50 /* PSYouTubeExtractor.m */; };
+		781CFFEA14E4F5AD00BD5D50 /* PSYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 781CFFE214E4F5AD00BD5D50 /* PSYouTubeExtractor.m */; };
+		781EA96F14A7437600026B4F /* PSPDFAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 781EA96D14A7437600026B4F /* PSPDFAttributedLabel.h */; };
+		781EA97014A7437600026B4F /* PSPDFAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 781EA96D14A7437600026B4F /* PSPDFAttributedLabel.h */; };
+		781EA97114A7437600026B4F /* PSPDFAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 781EA96E14A7437600026B4F /* PSPDFAttributedLabel.m */; };
+		781EA97214A7437600026B4F /* PSPDFAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 781EA96E14A7437600026B4F /* PSPDFAttributedLabel.m */; };
+		7824B09814A20A990053639E /* PSPDFOutlineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B423F146E7F1200DF07F1 /* PSPDFOutlineElement.m */; };
+		7824B09914A20A990053639E /* PSPDFOutlineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4241146E7F1200DF07F1 /* PSPDFOutlineParser.m */; };
+		7824B09A14A20A990053639E /* PSPDFOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4243146E7F1200DF07F1 /* PSPDFOutlineViewController.m */; };
+		7824B09B14A20A990053639E /* NSMutableAttributedString+PSPDFKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4246146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.m */; };
+		7824B09C14A20A990053639E /* PSPDFDocumentSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4248146E7F1200DF07F1 /* PSPDFDocumentSearcher.m */; };
+		7824B09D14A20A990053639E /* PSPDFSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B424A146E7F1200DF07F1 /* PSPDFSearchResult.m */; };
+		7824B09E14A20A990053639E /* PSPDFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B424C146E7F1200DF07F1 /* PSPDFSearchViewController.m */; };
+		7824B0A014A20A990053639E /* PSPDFThumbnailGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4269146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.m */; };
+		7824B0A114A20A990053639E /* PSPDFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B426D146E7F1200DF07F1 /* PSPDFCache.m */; };
+		7824B0A214A20A990053639E /* PSPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B426F146E7F1200DF07F1 /* PSPDFDocument.m */; };
+		7824B0A314A20A990053639E /* PSPDFGlobalLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4271146E7F1200DF07F1 /* PSPDFGlobalLock.m */; };
+		7824B0A414A20A990053639E /* PSPDFKitGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4274146E7F1200DF07F1 /* PSPDFKitGlobal.m */; };
+		7824B0A514A20A990053639E /* PSPDFPageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4278146E7F1200DF07F1 /* PSPDFPageInfo.m */; };
+		7824B0A614A20A990053639E /* PSPDFPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B427A146E7F1200DF07F1 /* PSPDFPageRenderer.m */; };
+		7824B0A714A20A990053639E /* PSPDFScrobbleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B427C146E7F1200DF07F1 /* PSPDFScrobbleBar.m */; };
+		7824B0A814A20A990053639E /* PSPDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B427E146E7F1200DF07F1 /* PSPDFScrollView.m */; };
+		7824B0A914A20A990053639E /* PSPDFTilingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4280146E7F1200DF07F1 /* PSPDFTilingView.m */; };
+		7824B0AA14A20A990053639E /* PSPDFTransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4282146E7F1200DF07F1 /* PSPDFTransparentToolbar.m */; };
+		7824B0AB14A20A990053639E /* PSPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780B4284146E7F1200DF07F1 /* PSPDFViewController.m */; };
+		7824B0AD14A20A990053639E /* PSPDFPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FDF8D8147883CE00BE13FC /* PSPDFPageView.m */; };
+		7824B0BE14A20A990053639E /* UIImage+PSPDFKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C22B8A148061D00092B889 /* UIImage+PSPDFKitAdditions.m */; };
+		7824B0BF14A20A990053639E /* UIColor+PSPDFKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECF713A1485FB670006CE7B /* UIColor+PSPDFKitAdditions.m */; };
+		7824B0C014A20A990053639E /* PSPDFSearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C8B148A4BBA006C06F4 /* PSPDFSearchOperation.m */; };
+		7824B0C114A20A990053639E /* PSPDFSearchHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C8C148A4BBA006C06F4 /* PSPDFSearchHighlightView.m */; };
+		7824B0C214A20A990053639E /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C96148A4BCA006C06F4 /* CIDType0Font.m */; };
+		7824B0C314A20A990053639E /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C98148A4BCA006C06F4 /* CIDType2Font.m */; };
+		7824B0C414A20A990053639E /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C9A148A4BCA006C06F4 /* CMap.m */; };
+		7824B0C514A20A990053639E /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C9C148A4BCA006C06F4 /* CompositeFont.m */; };
+		7824B0C614A20A990053639E /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CA4148A4BCA006C06F4 /* Font.m */; };
+		7824B0C714A20A990053639E /* FontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CA6148A4BCA006C06F4 /* FontCollection.m */; };
+		7824B0C814A20A990053639E /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CA8148A4BCA006C06F4 /* FontDescriptor.m */; };
+		7824B0C914A20A990053639E /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CAB148A4BCA006C06F4 /* MMType1Font.m */; };
+		7824B0CA14A20A990053639E /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CBC148A4BCA006C06F4 /* RenderingState.m */; };
+		7824B0CB14A20A990053639E /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC3148A4BCA006C06F4 /* Scanner.m */; };
+		7824B0CC14A20A990053639E /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC5148A4BCA006C06F4 /* Selection.m */; };
+		7824B0CD14A20A990053639E /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC7148A4BCA006C06F4 /* SimpleFont.m */; };
+		7824B0CE14A20A990053639E /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC9148A4BCA006C06F4 /* StringDetector.m */; };
+		7824B0CF14A20A990053639E /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CCB148A4BCA006C06F4 /* TrueTypeFont.m */; };
+		7824B0D014A20A990053639E /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CCD148A4BCA006C06F4 /* Type0Font.m */; };
+		7824B0D114A20A990053639E /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CCF148A4BCA006C06F4 /* Type1Font.m */; };
+		7824B0D214A20A990053639E /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CD1148A4BCA006C06F4 /* Type3Font.m */; };
+		7824B0D314A20A990053639E /* PSPDFHighlightAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D0A148A4C17006C06F4 /* PSPDFHighlightAnnotationView.m */; };
+		7824B0D414A20A990053639E /* PSPDFLinkAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D0C148A4C17006C06F4 /* PSPDFLinkAnnotationView.m */; };
+		7824B0D514A20A990053639E /* PSPDFVideoAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D0E148A4C17006C06F4 /* PSPDFVideoAnnotationView.m */; };
+		7824B0D614A20A990053639E /* PSPDFWebAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D10148A4C17006C06F4 /* PSPDFWebAnnotationView.m */; };
+		7824B0D714A20A990053639E /* PSPDFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D12148A4C17006C06F4 /* PSPDFAnnotation.m */; };
+		7824B0D814A20A990053639E /* PSPDFAnnotationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D13148A4C17006C06F4 /* PSPDFAnnotationParser.m */; };
+		7824B0DA14A20A990053639E /* PSPDFTilingView+Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D17148A4C17006C06F4 /* PSPDFTilingView+Annotations.m */; };
+		7824B0DB14A20A990053639E /* PSPDFSearchStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59A03148CFEBA00782950 /* PSPDFSearchStatusCell.m */; };
+		7824B0DC14A20A990053639E /* PSPDFSimpleTextExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59A05148CFEBA00782950 /* PSPDFSimpleTextExtractor.m */; };
+		7824B0DD14A20A990053639E /* PSPDFHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C912E014961FB200559384 /* PSPDFHUDView.m */; };
+		7824B0DE14A20A990053639E /* PSPDFPositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C912E814961FC600559384 /* PSPDFPositionView.m */; };
+		7824B0DF14A20A990053639E /* PSPDFDocumentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7080C1497FDCA00E38F0E /* PSPDFDocumentProvider.m */; };
+		7824B0E614A20A990053639E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F2B9A1147FF9D5009387AD /* CoreMedia.framework */; };
+		7824B0E714A20A990053639E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F2B99F147FF9CE009387AD /* AVFoundation.framework */; };
+		7824B0E814A20A990053639E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F2B99D147FF9C1009387AD /* ImageIO.framework */; };
+		7824B0E914A20A990053639E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FDF8E41478840E00BE13FC /* MediaPlayer.framework */; };
+		7824B0EA14A20A990053639E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673C14731BD1001E4F5E /* CoreText.framework */; };
+		7824B0EB14A20A990053639E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673A14731BC8001E4F5E /* CoreGraphics.framework */; };
+		7824B0EC14A20A990053639E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673814731B6E001E4F5E /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7824B0ED14A20A990053639E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673614731B2A001E4F5E /* MessageUI.framework */; };
+		7824B0EE14A20A990053639E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673314731B1C001E4F5E /* QuartzCore.framework */; };
+		7824B0EF14A20A990053639E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B416C146E7DAB00DF07F1 /* Foundation.framework */; };
+		7824B0F114A20A990053639E /* PSPDFOutlineElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B423E146E7F1200DF07F1 /* PSPDFOutlineElement.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F214A20A990053639E /* PSPDFOutlineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4240146E7F1200DF07F1 /* PSPDFOutlineParser.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F314A20A990053639E /* PSPDFOutlineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4242146E7F1200DF07F1 /* PSPDFOutlineViewController.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F414A20A990053639E /* NSMutableAttributedString+PSPDFKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4245146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F514A20A990053639E /* PSPDFDocumentSearcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4247146E7F1200DF07F1 /* PSPDFDocumentSearcher.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F614A20A990053639E /* PSPDFSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4249146E7F1200DF07F1 /* PSPDFSearchResult.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F714A20A990053639E /* PSPDFSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B424B146E7F1200DF07F1 /* PSPDFSearchViewController.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0F914A20A990053639E /* PSPDFThumbnailGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4268146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0FA14A20A990053639E /* PSPDFCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B426C146E7F1200DF07F1 /* PSPDFCache.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0FB14A20A990053639E /* PSPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B426E146E7F1200DF07F1 /* PSPDFDocument.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0FC14A20A990053639E /* PSPDFGlobalLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4270146E7F1200DF07F1 /* PSPDFGlobalLock.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0FD14A20A990053639E /* PSPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4272146E7F1200DF07F1 /* PSPDFKit.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0FE14A20A990053639E /* PSPDFKitGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4273146E7F1200DF07F1 /* PSPDFKitGlobal.h */; settings = {ATTRIBUTES = (); }; };
+		7824B0FF14A20A990053639E /* PSPDFPageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4277146E7F1200DF07F1 /* PSPDFPageInfo.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10014A20A990053639E /* PSPDFPageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4279146E7F1200DF07F1 /* PSPDFPageRenderer.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10114A20A990053639E /* PSPDFScrobbleBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B427B146E7F1200DF07F1 /* PSPDFScrobbleBar.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10214A20A990053639E /* PSPDFScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B427D146E7F1200DF07F1 /* PSPDFScrollView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10314A20A990053639E /* PSPDFTilingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B427F146E7F1200DF07F1 /* PSPDFTilingView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10414A20A990053639E /* PSPDFTransparentToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4281146E7F1200DF07F1 /* PSPDFTransparentToolbar.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10514A20A990053639E /* PSPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4283146E7F1200DF07F1 /* PSPDFViewController.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10614A20A990053639E /* PSPDFViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B4285146E7F1200DF07F1 /* PSPDFViewControllerDelegate.h */; settings = {ATTRIBUTES = (); }; };
+		7824B10814A20A990053639E /* PSPDFKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 780B42D7146E7F2700DF07F1 /* PSPDFKit-Prefix.pch */; settings = {ATTRIBUTES = (); }; };
+		7824B10914A20A990053639E /* PSPDFPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FDF8D7147883CE00BE13FC /* PSPDFPageView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11214A20A990053639E /* PSPDFViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C22A63148013250092B889 /* PSPDFViewController+Internal.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11314A20A990053639E /* UIImage+PSPDFKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C22B89148061D00092B889 /* UIImage+PSPDFKitAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11414A20A990053639E /* UIColor+PSPDFKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECF71391485FB670006CE7B /* UIColor+PSPDFKitAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11514A20A990053639E /* PSPDFSearchHighlightView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C8D148A4BBA006C06F4 /* PSPDFSearchHighlightView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11614A20A990053639E /* PSPDFSearchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C8E148A4BBA006C06F4 /* PSPDFSearchOperation.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11714A20A990053639E /* PSPDFAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D07148A4C17006C06F4 /* PSPDFAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11814A20A990053639E /* PSPDFAnnotationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D08148A4C17006C06F4 /* PSPDFAnnotationParser.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11914A20A990053639E /* PSPDFHighlightAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D09148A4C17006C06F4 /* PSPDFHighlightAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11A14A20A990053639E /* PSPDFLinkAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D0B148A4C17006C06F4 /* PSPDFLinkAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11B14A20A990053639E /* PSPDFVideoAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D0D148A4C17006C06F4 /* PSPDFVideoAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11C14A20A990053639E /* PSPDFWebAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D0F148A4C17006C06F4 /* PSPDFWebAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11D14A20A990053639E /* PSPDFAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D11148A4C17006C06F4 /* PSPDFAnnotation.h */; settings = {ATTRIBUTES = (); }; };
+		7824B11F14A20A990053639E /* PSPDFTilingView+Annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D16148A4C17006C06F4 /* PSPDFTilingView+Annotations.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12014A20A990053639E /* PSPDFSearchStatusCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B59A02148CFEBA00782950 /* PSPDFSearchStatusCell.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12114A20A990053639E /* PSPDFSimpleTextExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B59A04148CFEBA00782950 /* PSPDFSimpleTextExtractor.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12214A20A990053639E /* PSPDFHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C912DF14961FB200559384 /* PSPDFHUDView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12314A20A990053639E /* PSPDFPositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C912E714961FC600559384 /* PSPDFPositionView.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12414A20A990053639E /* PSPDFDocumentProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F7080B1497FDCA00E38F0E /* PSPDFDocumentProvider.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12514A20A990053639E /* CIDType0Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C95148A4BCA006C06F4 /* CIDType0Font.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12614A20A990053639E /* CIDType2Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C97148A4BCA006C06F4 /* CIDType2Font.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12714A20A990053639E /* CMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C99148A4BCA006C06F4 /* CMap.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12814A20A990053639E /* CompositeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C9B148A4BCA006C06F4 /* CompositeFont.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12914A20A990053639E /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CA3148A4BCA006C06F4 /* Font.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12A14A20A990053639E /* FontCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CA5148A4BCA006C06F4 /* FontCollection.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12B14A20A990053639E /* FontDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CA7148A4BCA006C06F4 /* FontDescriptor.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12C14A20A990053639E /* MMType1Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CAA148A4BCA006C06F4 /* MMType1Font.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12D14A20A990053639E /* RenderingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CBB148A4BCA006C06F4 /* RenderingState.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12E14A20A990053639E /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC2148A4BCA006C06F4 /* Scanner.h */; settings = {ATTRIBUTES = (); }; };
+		7824B12F14A20A990053639E /* Selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC4148A4BCA006C06F4 /* Selection.h */; settings = {ATTRIBUTES = (); }; };
+		7824B13014A20A990053639E /* SimpleFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC6148A4BCA006C06F4 /* SimpleFont.h */; settings = {ATTRIBUTES = (); }; };
+		7824B13114A20A990053639E /* StringDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC8148A4BCA006C06F4 /* StringDetector.h */; settings = {ATTRIBUTES = (); }; };
+		7824B13214A20A990053639E /* TrueTypeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CCA148A4BCA006C06F4 /* TrueTypeFont.h */; settings = {ATTRIBUTES = (); }; };
+		7824B13314A20A990053639E /* Type0Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CCC148A4BCA006C06F4 /* Type0Font.h */; settings = {ATTRIBUTES = (); }; };
+		7824B13414A20A990053639E /* Type1Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CCE148A4BCA006C06F4 /* Type1Font.h */; settings = {ATTRIBUTES = (); }; };
+		7824B13514A20A990053639E /* Type3Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CD0148A4BCA006C06F4 /* Type3Font.h */; settings = {ATTRIBUTES = (); }; };
+		783771A614EEE7A000F5D39C /* PSPDFImageAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 783771A414EEE7A000F5D39C /* PSPDFImageAnnotation.m */; };
+		783771A714EEE7A000F5D39C /* PSPDFImageAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 783771A414EEE7A000F5D39C /* PSPDFImageAnnotation.m */; };
+		783771A814EEE7A000F5D39C /* PSPDFImageAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 783771A514EEE7A000F5D39C /* PSPDFImageAnnotation.h */; };
+		783771A914EEE7A000F5D39C /* PSPDFImageAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 783771A514EEE7A000F5D39C /* PSPDFImageAnnotation.h */; };
+		783D1C8F148A4BBA006C06F4 /* PSPDFSearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C8B148A4BBA006C06F4 /* PSPDFSearchOperation.m */; };
+		783D1C90148A4BBA006C06F4 /* PSPDFSearchHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C8C148A4BBA006C06F4 /* PSPDFSearchHighlightView.m */; };
+		783D1C91148A4BBA006C06F4 /* PSPDFSearchHighlightView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C8D148A4BBA006C06F4 /* PSPDFSearchHighlightView.h */; settings = {ATTRIBUTES = (); }; };
+		783D1C92148A4BBA006C06F4 /* PSPDFSearchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C8E148A4BBA006C06F4 /* PSPDFSearchOperation.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CD2148A4BCA006C06F4 /* CIDType0Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C95148A4BCA006C06F4 /* CIDType0Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CD3148A4BCA006C06F4 /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C96148A4BCA006C06F4 /* CIDType0Font.m */; };
+		783D1CD4148A4BCA006C06F4 /* CIDType2Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C97148A4BCA006C06F4 /* CIDType2Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CD5148A4BCA006C06F4 /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C98148A4BCA006C06F4 /* CIDType2Font.m */; };
+		783D1CD6148A4BCA006C06F4 /* CMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C99148A4BCA006C06F4 /* CMap.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CD7148A4BCA006C06F4 /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C9A148A4BCA006C06F4 /* CMap.m */; };
+		783D1CD8148A4BCA006C06F4 /* CompositeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1C9B148A4BCA006C06F4 /* CompositeFont.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CD9148A4BCA006C06F4 /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1C9C148A4BCA006C06F4 /* CompositeFont.m */; };
+		783D1CDC148A4BCA006C06F4 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CA3148A4BCA006C06F4 /* Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CDD148A4BCA006C06F4 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CA4148A4BCA006C06F4 /* Font.m */; };
+		783D1CDE148A4BCA006C06F4 /* FontCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CA5148A4BCA006C06F4 /* FontCollection.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CDF148A4BCA006C06F4 /* FontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CA6148A4BCA006C06F4 /* FontCollection.m */; };
+		783D1CE0148A4BCA006C06F4 /* FontDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CA7148A4BCA006C06F4 /* FontDescriptor.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CE1148A4BCA006C06F4 /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CA8148A4BCA006C06F4 /* FontDescriptor.m */; };
+		783D1CE3148A4BCA006C06F4 /* MMType1Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CAA148A4BCA006C06F4 /* MMType1Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CE4148A4BCA006C06F4 /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CAB148A4BCA006C06F4 /* MMType1Font.m */; };
+		783D1CF2148A4BCA006C06F4 /* RenderingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CBB148A4BCA006C06F4 /* RenderingState.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CF3148A4BCA006C06F4 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CBC148A4BCA006C06F4 /* RenderingState.m */; };
+		783D1CF6148A4BCA006C06F4 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC2148A4BCA006C06F4 /* Scanner.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CF7148A4BCA006C06F4 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC3148A4BCA006C06F4 /* Scanner.m */; };
+		783D1CF8148A4BCA006C06F4 /* Selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC4148A4BCA006C06F4 /* Selection.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CF9148A4BCA006C06F4 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC5148A4BCA006C06F4 /* Selection.m */; };
+		783D1CFA148A4BCA006C06F4 /* SimpleFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC6148A4BCA006C06F4 /* SimpleFont.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CFB148A4BCA006C06F4 /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC7148A4BCA006C06F4 /* SimpleFont.m */; };
+		783D1CFC148A4BCA006C06F4 /* StringDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CC8148A4BCA006C06F4 /* StringDetector.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CFD148A4BCA006C06F4 /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CC9148A4BCA006C06F4 /* StringDetector.m */; };
+		783D1CFE148A4BCA006C06F4 /* TrueTypeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CCA148A4BCA006C06F4 /* TrueTypeFont.h */; settings = {ATTRIBUTES = (); }; };
+		783D1CFF148A4BCA006C06F4 /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CCB148A4BCA006C06F4 /* TrueTypeFont.m */; };
+		783D1D00148A4BCA006C06F4 /* Type0Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CCC148A4BCA006C06F4 /* Type0Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D01148A4BCA006C06F4 /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CCD148A4BCA006C06F4 /* Type0Font.m */; };
+		783D1D02148A4BCA006C06F4 /* Type1Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CCE148A4BCA006C06F4 /* Type1Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D03148A4BCA006C06F4 /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CCF148A4BCA006C06F4 /* Type1Font.m */; };
+		783D1D04148A4BCA006C06F4 /* Type3Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1CD0148A4BCA006C06F4 /* Type3Font.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D05148A4BCA006C06F4 /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1CD1148A4BCA006C06F4 /* Type3Font.m */; };
+		783D1D18148A4C17006C06F4 /* PSPDFAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D07148A4C17006C06F4 /* PSPDFAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D19148A4C17006C06F4 /* PSPDFAnnotationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D08148A4C17006C06F4 /* PSPDFAnnotationParser.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D1A148A4C17006C06F4 /* PSPDFHighlightAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D09148A4C17006C06F4 /* PSPDFHighlightAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D1B148A4C17006C06F4 /* PSPDFHighlightAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D0A148A4C17006C06F4 /* PSPDFHighlightAnnotationView.m */; };
+		783D1D1C148A4C17006C06F4 /* PSPDFLinkAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D0B148A4C17006C06F4 /* PSPDFLinkAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D1D148A4C17006C06F4 /* PSPDFLinkAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D0C148A4C17006C06F4 /* PSPDFLinkAnnotationView.m */; };
+		783D1D1E148A4C17006C06F4 /* PSPDFVideoAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D0D148A4C17006C06F4 /* PSPDFVideoAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D1F148A4C17006C06F4 /* PSPDFVideoAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D0E148A4C17006C06F4 /* PSPDFVideoAnnotationView.m */; };
+		783D1D20148A4C17006C06F4 /* PSPDFWebAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D0F148A4C17006C06F4 /* PSPDFWebAnnotationView.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D21148A4C17006C06F4 /* PSPDFWebAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D10148A4C17006C06F4 /* PSPDFWebAnnotationView.m */; };
+		783D1D22148A4C17006C06F4 /* PSPDFAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D11148A4C17006C06F4 /* PSPDFAnnotation.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D23148A4C17006C06F4 /* PSPDFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D12148A4C17006C06F4 /* PSPDFAnnotation.m */; };
+		783D1D24148A4C17006C06F4 /* PSPDFAnnotationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D13148A4C17006C06F4 /* PSPDFAnnotationParser.m */; };
+		783D1D27148A4C17006C06F4 /* PSPDFTilingView+Annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 783D1D16148A4C17006C06F4 /* PSPDFTilingView+Annotations.h */; settings = {ATTRIBUTES = (); }; };
+		783D1D28148A4C17006C06F4 /* PSPDFTilingView+Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D1D17148A4C17006C06F4 /* PSPDFTilingView+Annotations.m */; };
+		78687A641520F3350051DC1E /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78687A621520F3350051DC1E /* libturbojpeg.a */; };
+		78687A651520F3350051DC1E /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78687A621520F3350051DC1E /* libturbojpeg.a */; };
+		78687A661520F3350051DC1E /* turbojpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687A631520F3350051DC1E /* turbojpeg.h */; };
+		78687A671520F3350051DC1E /* turbojpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687A631520F3350051DC1E /* turbojpeg.h */; };
+		78687AA415210E040051DC1E /* PSPDFGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687A9D15210E040051DC1E /* PSPDFGridView.h */; };
+		78687AA515210E040051DC1E /* PSPDFGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687A9D15210E040051DC1E /* PSPDFGridView.h */; };
+		78687AA615210E040051DC1E /* PSPDFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78687A9E15210E040051DC1E /* PSPDFGridView.m */; };
+		78687AA715210E040051DC1E /* PSPDFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78687A9E15210E040051DC1E /* PSPDFGridView.m */; };
+		78687AA815210E040051DC1E /* PSPDFGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687A9F15210E040051DC1E /* PSPDFGridViewCell.h */; };
+		78687AA915210E040051DC1E /* PSPDFGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687A9F15210E040051DC1E /* PSPDFGridViewCell.h */; };
+		78687AAA15210E040051DC1E /* PSPDFGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78687AA015210E040051DC1E /* PSPDFGridViewCell.m */; };
+		78687AAB15210E040051DC1E /* PSPDFGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78687AA015210E040051DC1E /* PSPDFGridViewCell.m */; };
+		78687AAC15210E040051DC1E /* PSPDFGridViewCell+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687AA115210E040051DC1E /* PSPDFGridViewCell+Extended.h */; };
+		78687AAD15210E040051DC1E /* PSPDFGridViewCell+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687AA115210E040051DC1E /* PSPDFGridViewCell+Extended.h */; };
+		78687AAE15210E040051DC1E /* PSPDFGridViewLayoutStrategies.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687AA215210E040051DC1E /* PSPDFGridViewLayoutStrategies.h */; };
+		78687AAF15210E040051DC1E /* PSPDFGridViewLayoutStrategies.h in Headers */ = {isa = PBXBuildFile; fileRef = 78687AA215210E040051DC1E /* PSPDFGridViewLayoutStrategies.h */; };
+		78687AB015210E040051DC1E /* PSPDFGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 78687AA315210E040051DC1E /* PSPDFGridViewLayoutStrategies.m */; };
+		78687AB115210E040051DC1E /* PSPDFGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 78687AA315210E040051DC1E /* PSPDFGridViewLayoutStrategies.m */; };
+		78692EAE1512F783009BC996 /* PSPDFOutlineCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78692EAC1512F783009BC996 /* PSPDFOutlineCell.h */; };
+		78692EAF1512F783009BC996 /* PSPDFOutlineCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78692EAC1512F783009BC996 /* PSPDFOutlineCell.h */; };
+		78692EB01512F783009BC996 /* PSPDFOutlineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78692EAD1512F783009BC996 /* PSPDFOutlineCell.m */; };
+		78692EB11512F783009BC996 /* PSPDFOutlineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78692EAD1512F783009BC996 /* PSPDFOutlineCell.m */; };
+		78692EB51512F797009BC996 /* PSPDFIconGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 78692EB31512F797009BC996 /* PSPDFIconGenerator.h */; };
+		78692EB61512F797009BC996 /* PSPDFIconGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 78692EB31512F797009BC996 /* PSPDFIconGenerator.h */; };
+		78692EB71512F797009BC996 /* PSPDFIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78692EB41512F797009BC996 /* PSPDFIconGenerator.m */; };
+		78692EB81512F797009BC996 /* PSPDFIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78692EB41512F797009BC996 /* PSPDFIconGenerator.m */; };
+		78B59A06148CFEBA00782950 /* PSPDFSearchStatusCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B59A02148CFEBA00782950 /* PSPDFSearchStatusCell.h */; settings = {ATTRIBUTES = (); }; };
+		78B59A07148CFEBA00782950 /* PSPDFSearchStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59A03148CFEBA00782950 /* PSPDFSearchStatusCell.m */; };
+		78B59A08148CFEBA00782950 /* PSPDFSimpleTextExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B59A04148CFEBA00782950 /* PSPDFSimpleTextExtractor.h */; settings = {ATTRIBUTES = (); }; };
+		78B59A09148CFEBA00782950 /* PSPDFSimpleTextExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59A05148CFEBA00782950 /* PSPDFSimpleTextExtractor.m */; };
+		78C22A64148013250092B889 /* PSPDFViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C22A63148013250092B889 /* PSPDFViewController+Internal.h */; settings = {ATTRIBUTES = (); }; };
+		78C22B8B148061D00092B889 /* UIImage+PSPDFKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C22B89148061D00092B889 /* UIImage+PSPDFKitAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		78C22B8C148061D00092B889 /* UIImage+PSPDFKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C22B8A148061D00092B889 /* UIImage+PSPDFKitAdditions.m */; };
+		78C7876914AA93F300E5E951 /* PSPDFPagedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7876314AA93F300E5E951 /* PSPDFPagedScrollView.h */; };
+		78C7876A14AA93F300E5E951 /* PSPDFPagedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7876314AA93F300E5E951 /* PSPDFPagedScrollView.h */; };
+		78C7876B14AA93F300E5E951 /* PSPDFPagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7876414AA93F300E5E951 /* PSPDFPagedScrollView.m */; };
+		78C7876C14AA93F300E5E951 /* PSPDFPagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7876414AA93F300E5E951 /* PSPDFPagedScrollView.m */; };
+		78C7876D14AA93F300E5E951 /* PSPDFPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7876514AA93F300E5E951 /* PSPDFPageViewController.h */; };
+		78C7876E14AA93F300E5E951 /* PSPDFPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7876514AA93F300E5E951 /* PSPDFPageViewController.h */; };
+		78C7876F14AA93F300E5E951 /* PSPDFPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7876614AA93F300E5E951 /* PSPDFPageViewController.m */; };
+		78C7877014AA93F300E5E951 /* PSPDFPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7876614AA93F300E5E951 /* PSPDFPageViewController.m */; };
+		78C7877114AA93F300E5E951 /* PSPDFSinglePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7876714AA93F300E5E951 /* PSPDFSinglePageViewController.h */; };
+		78C7877214AA93F300E5E951 /* PSPDFSinglePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7876714AA93F300E5E951 /* PSPDFSinglePageViewController.h */; };
+		78C7877314AA93F300E5E951 /* PSPDFSinglePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7876814AA93F300E5E951 /* PSPDFSinglePageViewController.m */; };
+		78C7877414AA93F300E5E951 /* PSPDFSinglePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7876814AA93F300E5E951 /* PSPDFSinglePageViewController.m */; };
+		78C912E314961FB200559384 /* PSPDFHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C912DF14961FB200559384 /* PSPDFHUDView.h */; settings = {ATTRIBUTES = (); }; };
+		78C912E414961FB200559384 /* PSPDFHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C912E014961FB200559384 /* PSPDFHUDView.m */; };
+		78C912E914961FC700559384 /* PSPDFPositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C912E714961FC600559384 /* PSPDFPositionView.h */; settings = {ATTRIBUTES = (); }; };
+		78C912EA14961FC700559384 /* PSPDFPositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C912E814961FC600559384 /* PSPDFPositionView.m */; };
+		78D5673414731B1C001E4F5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673314731B1C001E4F5E /* QuartzCore.framework */; };
+		78D5673714731B2A001E4F5E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673614731B2A001E4F5E /* MessageUI.framework */; };
+		78D5673914731B6E001E4F5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673814731B6E001E4F5E /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		78D5673B14731BC8001E4F5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673A14731BC8001E4F5E /* CoreGraphics.framework */; };
+		78D5673D14731BD2001E4F5E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5673C14731BD1001E4F5E /* CoreText.framework */; };
+		78D64C601506E6E30003F899 /* PSPDFActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C5C1506E6E30003F899 /* PSPDFActionSheet.h */; };
+		78D64C611506E6E30003F899 /* PSPDFActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C5C1506E6E30003F899 /* PSPDFActionSheet.h */; };
+		78D64C621506E6E30003F899 /* PSPDFActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C5D1506E6E30003F899 /* PSPDFActionSheet.m */; };
+		78D64C631506E6E30003F899 /* PSPDFActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C5D1506E6E30003F899 /* PSPDFActionSheet.m */; };
+		78D64C641506E6E30003F899 /* PSPDFAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C5E1506E6E30003F899 /* PSPDFAlertView.h */; };
+		78D64C651506E6E30003F899 /* PSPDFAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C5E1506E6E30003F899 /* PSPDFAlertView.h */; };
+		78D64C661506E6E30003F899 /* PSPDFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C5F1506E6E30003F899 /* PSPDFAlertView.m */; };
+		78D64C671506E6E30003F899 /* PSPDFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C5F1506E6E30003F899 /* PSPDFAlertView.m */; };
+		78D64C6B1506E6EB0003F899 /* PSPDFBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C691506E6EB0003F899 /* PSPDFBaseViewController.h */; };
+		78D64C6C1506E6EB0003F899 /* PSPDFBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C691506E6EB0003F899 /* PSPDFBaseViewController.h */; };
+		78D64C6D1506E6EB0003F899 /* PSPDFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C6A1506E6EB0003F899 /* PSPDFBaseViewController.m */; };
+		78D64C6E1506E6EB0003F899 /* PSPDFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C6A1506E6EB0003F899 /* PSPDFBaseViewController.m */; };
+		78D64C771506E70D0003F899 /* PSPDFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C751506E70D0003F899 /* PSPDFWebViewController.m */; };
+		78D64C781506E70D0003F899 /* PSPDFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D64C751506E70D0003F899 /* PSPDFWebViewController.m */; };
+		78D64C791506E70D0003F899 /* PSPDFWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C761506E70D0003F899 /* PSPDFWebViewController.h */; };
+		78D64C7A1506E70D0003F899 /* PSPDFWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D64C761506E70D0003F899 /* PSPDFWebViewController.h */; };
+		78F2B99E147FF9C1009387AD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F2B99D147FF9C1009387AD /* ImageIO.framework */; };
+		78F2B9A0147FF9CE009387AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F2B99F147FF9CE009387AD /* AVFoundation.framework */; };
+		78F2B9A2147FF9D5009387AD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F2B9A1147FF9D5009387AD /* CoreMedia.framework */; };
+		78F7080D1497FDCA00E38F0E /* PSPDFDocumentProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F7080B1497FDCA00E38F0E /* PSPDFDocumentProvider.h */; settings = {ATTRIBUTES = (); }; };
+		78F7080E1497FDCA00E38F0E /* PSPDFDocumentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7080C1497FDCA00E38F0E /* PSPDFDocumentProvider.m */; };
+		78FDF8D9147883CE00BE13FC /* PSPDFPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FDF8D7147883CE00BE13FC /* PSPDFPageView.h */; settings = {ATTRIBUTES = (); }; };
+		78FDF8DA147883CE00BE13FC /* PSPDFPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FDF8D8147883CE00BE13FC /* PSPDFPageView.m */; };
+		78FDF8E51478840E00BE13FC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FDF8E41478840E00BE13FC /* MediaPlayer.framework */; };
+		9ECF713B1485FB670006CE7B /* UIColor+PSPDFKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECF71391485FB670006CE7B /* UIColor+PSPDFKitAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		9ECF713C1485FB670006CE7B /* UIColor+PSPDFKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECF713A1485FB670006CE7B /* UIColor+PSPDFKitAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784BC22B14EC55B300F55047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780B4160146E7DAB00DF07F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784BC22614EC55A000F55047;
+			remoteInfo = TouchVersionFile;
+		};
+		784BC22D14EC55B600F55047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780B4160146E7DAB00DF07F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784BC22614EC55A000F55047;
+			remoteInfo = TouchVersionFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780B4169146E7DAB00DF07F1 /* libPSPDFKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPSPDFKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		780B416C146E7DAB00DF07F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		780B423E146E7F1200DF07F1 /* PSPDFOutlineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFOutlineElement.h; sourceTree = "<group>"; };
+		780B423F146E7F1200DF07F1 /* PSPDFOutlineElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFOutlineElement.m; sourceTree = "<group>"; };
+		780B4240146E7F1200DF07F1 /* PSPDFOutlineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFOutlineParser.h; sourceTree = "<group>"; };
+		780B4241146E7F1200DF07F1 /* PSPDFOutlineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFOutlineParser.m; sourceTree = "<group>"; };
+		780B4242146E7F1200DF07F1 /* PSPDFOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFOutlineViewController.h; sourceTree = "<group>"; };
+		780B4243146E7F1200DF07F1 /* PSPDFOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFOutlineViewController.m; sourceTree = "<group>"; };
+		780B4245146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PSPDFKitAdditions.h"; sourceTree = "<group>"; };
+		780B4246146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PSPDFKitAdditions.m"; sourceTree = "<group>"; };
+		780B4247146E7F1200DF07F1 /* PSPDFDocumentSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFDocumentSearcher.h; sourceTree = "<group>"; };
+		780B4248146E7F1200DF07F1 /* PSPDFDocumentSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFDocumentSearcher.m; sourceTree = "<group>"; };
+		780B4249146E7F1200DF07F1 /* PSPDFSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSearchResult.h; sourceTree = "<group>"; };
+		780B424A146E7F1200DF07F1 /* PSPDFSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSearchResult.m; sourceTree = "<group>"; };
+		780B424B146E7F1200DF07F1 /* PSPDFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSearchViewController.h; sourceTree = "<group>"; };
+		780B424C146E7F1200DF07F1 /* PSPDFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSearchViewController.m; sourceTree = "<group>"; };
+		780B4268146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFThumbnailGridViewCell.h; sourceTree = "<group>"; };
+		780B4269146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFThumbnailGridViewCell.m; sourceTree = "<group>"; };
+		780B426C146E7F1200DF07F1 /* PSPDFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFCache.h; sourceTree = SOURCE_ROOT; };
+		780B426D146E7F1200DF07F1 /* PSPDFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFCache.m; sourceTree = SOURCE_ROOT; };
+		780B426E146E7F1200DF07F1 /* PSPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFDocument.h; sourceTree = SOURCE_ROOT; };
+		780B426F146E7F1200DF07F1 /* PSPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFDocument.m; sourceTree = SOURCE_ROOT; };
+		780B4270146E7F1200DF07F1 /* PSPDFGlobalLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFGlobalLock.h; sourceTree = SOURCE_ROOT; };
+		780B4271146E7F1200DF07F1 /* PSPDFGlobalLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFGlobalLock.m; sourceTree = SOURCE_ROOT; };
+		780B4272146E7F1200DF07F1 /* PSPDFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFKit.h; sourceTree = SOURCE_ROOT; };
+		780B4273146E7F1200DF07F1 /* PSPDFKitGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFKitGlobal.h; sourceTree = SOURCE_ROOT; };
+		780B4274146E7F1200DF07F1 /* PSPDFKitGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFKitGlobal.m; sourceTree = SOURCE_ROOT; };
+		780B4277146E7F1200DF07F1 /* PSPDFPageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPageInfo.h; sourceTree = SOURCE_ROOT; };
+		780B4278146E7F1200DF07F1 /* PSPDFPageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPageInfo.m; sourceTree = SOURCE_ROOT; };
+		780B4279146E7F1200DF07F1 /* PSPDFPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPageRenderer.h; sourceTree = SOURCE_ROOT; };
+		780B427A146E7F1200DF07F1 /* PSPDFPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPageRenderer.m; sourceTree = SOURCE_ROOT; };
+		780B427B146E7F1200DF07F1 /* PSPDFScrobbleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFScrobbleBar.h; sourceTree = SOURCE_ROOT; };
+		780B427C146E7F1200DF07F1 /* PSPDFScrobbleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFScrobbleBar.m; sourceTree = SOURCE_ROOT; };
+		780B427D146E7F1200DF07F1 /* PSPDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFScrollView.h; sourceTree = SOURCE_ROOT; };
+		780B427E146E7F1200DF07F1 /* PSPDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFScrollView.m; sourceTree = SOURCE_ROOT; };
+		780B427F146E7F1200DF07F1 /* PSPDFTilingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFTilingView.h; sourceTree = SOURCE_ROOT; };
+		780B4280146E7F1200DF07F1 /* PSPDFTilingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFTilingView.m; sourceTree = SOURCE_ROOT; };
+		780B4281146E7F1200DF07F1 /* PSPDFTransparentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFTransparentToolbar.h; sourceTree = SOURCE_ROOT; };
+		780B4282146E7F1200DF07F1 /* PSPDFTransparentToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFTransparentToolbar.m; sourceTree = SOURCE_ROOT; };
+		780B4283146E7F1200DF07F1 /* PSPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFViewController.h; sourceTree = SOURCE_ROOT; };
+		780B4284146E7F1200DF07F1 /* PSPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFViewController.m; sourceTree = SOURCE_ROOT; };
+		780B4285146E7F1200DF07F1 /* PSPDFViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFViewControllerDelegate.h; sourceTree = SOURCE_ROOT; };
+		780B42D7146E7F2700DF07F1 /* PSPDFKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PSPDFKit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		78178B8514E538EA00541BE8 /* PSPDFPatches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPatches.h; sourceTree = SOURCE_ROOT; };
+		78178B8614E538EA00541BE8 /* PSPDFPatches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPatches.m; sourceTree = SOURCE_ROOT; };
+		781CFFDF14E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFYouTubeAnnotationView.h; sourceTree = "<group>"; };
+		781CFFE014E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFYouTubeAnnotationView.m; sourceTree = "<group>"; };
+		781CFFE114E4F5AD00BD5D50 /* PSYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSYouTubeExtractor.h; sourceTree = "<group>"; };
+		781CFFE214E4F5AD00BD5D50 /* PSYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSYouTubeExtractor.m; sourceTree = "<group>"; };
+		781EA96D14A7437600026B4F /* PSPDFAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFAttributedLabel.h; sourceTree = "<group>"; };
+		781EA96E14A7437600026B4F /* PSPDFAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFAttributedLabel.m; sourceTree = "<group>"; };
+		7824B14114A20A990053639E /* libPSPDFKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPSPDFKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		783771A414EEE7A000F5D39C /* PSPDFImageAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFImageAnnotation.m; sourceTree = "<group>"; };
+		783771A514EEE7A000F5D39C /* PSPDFImageAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFImageAnnotation.h; sourceTree = "<group>"; };
+		783D1C8B148A4BBA006C06F4 /* PSPDFSearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSearchOperation.m; sourceTree = "<group>"; };
+		783D1C8C148A4BBA006C06F4 /* PSPDFSearchHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSearchHighlightView.m; sourceTree = "<group>"; };
+		783D1C8D148A4BBA006C06F4 /* PSPDFSearchHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSearchHighlightView.h; sourceTree = "<group>"; };
+		783D1C8E148A4BBA006C06F4 /* PSPDFSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSearchOperation.h; sourceTree = "<group>"; };
+		783D1C95148A4BCA006C06F4 /* CIDType0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIDType0Font.h; sourceTree = "<group>"; };
+		783D1C96148A4BCA006C06F4 /* CIDType0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIDType0Font.m; sourceTree = "<group>"; };
+		783D1C97148A4BCA006C06F4 /* CIDType2Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIDType2Font.h; sourceTree = "<group>"; };
+		783D1C98148A4BCA006C06F4 /* CIDType2Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIDType2Font.m; sourceTree = "<group>"; };
+		783D1C99148A4BCA006C06F4 /* CMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMap.h; sourceTree = "<group>"; };
+		783D1C9A148A4BCA006C06F4 /* CMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMap.m; sourceTree = "<group>"; };
+		783D1C9B148A4BCA006C06F4 /* CompositeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeFont.h; sourceTree = "<group>"; };
+		783D1C9C148A4BCA006C06F4 /* CompositeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeFont.m; sourceTree = "<group>"; };
+		783D1CA3148A4BCA006C06F4 /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		783D1CA4148A4BCA006C06F4 /* Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Font.m; sourceTree = "<group>"; };
+		783D1CA5148A4BCA006C06F4 /* FontCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontCollection.h; sourceTree = "<group>"; };
+		783D1CA6148A4BCA006C06F4 /* FontCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontCollection.m; sourceTree = "<group>"; };
+		783D1CA7148A4BCA006C06F4 /* FontDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontDescriptor.h; sourceTree = "<group>"; };
+		783D1CA8148A4BCA006C06F4 /* FontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontDescriptor.m; sourceTree = "<group>"; };
+		783D1CAA148A4BCA006C06F4 /* MMType1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMType1Font.h; sourceTree = "<group>"; };
+		783D1CAB148A4BCA006C06F4 /* MMType1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMType1Font.m; sourceTree = "<group>"; };
+		783D1CBB148A4BCA006C06F4 /* RenderingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingState.h; sourceTree = "<group>"; };
+		783D1CBC148A4BCA006C06F4 /* RenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingState.m; sourceTree = "<group>"; };
+		783D1CC2148A4BCA006C06F4 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		783D1CC3148A4BCA006C06F4 /* Scanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scanner.m; sourceTree = "<group>"; };
+		783D1CC4148A4BCA006C06F4 /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selection.h; sourceTree = "<group>"; };
+		783D1CC5148A4BCA006C06F4 /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selection.m; sourceTree = "<group>"; };
+		783D1CC6148A4BCA006C06F4 /* SimpleFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFont.h; sourceTree = "<group>"; };
+		783D1CC7148A4BCA006C06F4 /* SimpleFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFont.m; sourceTree = "<group>"; };
+		783D1CC8148A4BCA006C06F4 /* StringDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDetector.h; sourceTree = "<group>"; };
+		783D1CC9148A4BCA006C06F4 /* StringDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDetector.m; sourceTree = "<group>"; };
+		783D1CCA148A4BCA006C06F4 /* TrueTypeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueTypeFont.h; sourceTree = "<group>"; };
+		783D1CCB148A4BCA006C06F4 /* TrueTypeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueTypeFont.m; sourceTree = "<group>"; };
+		783D1CCC148A4BCA006C06F4 /* Type0Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type0Font.h; sourceTree = "<group>"; };
+		783D1CCD148A4BCA006C06F4 /* Type0Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type0Font.m; sourceTree = "<group>"; };
+		783D1CCE148A4BCA006C06F4 /* Type1Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type1Font.h; sourceTree = "<group>"; };
+		783D1CCF148A4BCA006C06F4 /* Type1Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type1Font.m; sourceTree = "<group>"; };
+		783D1CD0148A4BCA006C06F4 /* Type3Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type3Font.h; sourceTree = "<group>"; };
+		783D1CD1148A4BCA006C06F4 /* Type3Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type3Font.m; sourceTree = "<group>"; };
+		783D1D07148A4C17006C06F4 /* PSPDFAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFAnnotationView.h; sourceTree = "<group>"; };
+		783D1D08148A4C17006C06F4 /* PSPDFAnnotationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFAnnotationParser.h; sourceTree = "<group>"; };
+		783D1D09148A4C17006C06F4 /* PSPDFHighlightAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFHighlightAnnotationView.h; sourceTree = "<group>"; };
+		783D1D0A148A4C17006C06F4 /* PSPDFHighlightAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFHighlightAnnotationView.m; sourceTree = "<group>"; };
+		783D1D0B148A4C17006C06F4 /* PSPDFLinkAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFLinkAnnotationView.h; sourceTree = "<group>"; };
+		783D1D0C148A4C17006C06F4 /* PSPDFLinkAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFLinkAnnotationView.m; sourceTree = "<group>"; };
+		783D1D0D148A4C17006C06F4 /* PSPDFVideoAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFVideoAnnotationView.h; sourceTree = "<group>"; };
+		783D1D0E148A4C17006C06F4 /* PSPDFVideoAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFVideoAnnotationView.m; sourceTree = "<group>"; };
+		783D1D0F148A4C17006C06F4 /* PSPDFWebAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFWebAnnotationView.h; sourceTree = "<group>"; };
+		783D1D10148A4C17006C06F4 /* PSPDFWebAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFWebAnnotationView.m; sourceTree = "<group>"; };
+		783D1D11148A4C17006C06F4 /* PSPDFAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFAnnotation.h; sourceTree = "<group>"; };
+		783D1D12148A4C17006C06F4 /* PSPDFAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFAnnotation.m; sourceTree = "<group>"; };
+		783D1D13148A4C17006C06F4 /* PSPDFAnnotationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFAnnotationParser.m; sourceTree = "<group>"; };
+		783D1D16148A4C17006C06F4 /* PSPDFTilingView+Annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PSPDFTilingView+Annotations.h"; sourceTree = "<group>"; };
+		783D1D17148A4C17006C06F4 /* PSPDFTilingView+Annotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PSPDFTilingView+Annotations.m"; sourceTree = "<group>"; };
+		78687A621520F3350051DC1E /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
+		78687A631520F3350051DC1E /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
+		78687A9D15210E040051DC1E /* PSPDFGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFGridView.h; sourceTree = "<group>"; };
+		78687A9E15210E040051DC1E /* PSPDFGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFGridView.m; sourceTree = "<group>"; };
+		78687A9F15210E040051DC1E /* PSPDFGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFGridViewCell.h; sourceTree = "<group>"; };
+		78687AA015210E040051DC1E /* PSPDFGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFGridViewCell.m; sourceTree = "<group>"; };
+		78687AA115210E040051DC1E /* PSPDFGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PSPDFGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		78687AA215210E040051DC1E /* PSPDFGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		78687AA315210E040051DC1E /* PSPDFGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		78692EAC1512F783009BC996 /* PSPDFOutlineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFOutlineCell.h; sourceTree = "<group>"; };
+		78692EAD1512F783009BC996 /* PSPDFOutlineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFOutlineCell.m; sourceTree = "<group>"; };
+		78692EB31512F797009BC996 /* PSPDFIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFIconGenerator.h; sourceTree = SOURCE_ROOT; };
+		78692EB41512F797009BC996 /* PSPDFIconGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFIconGenerator.m; sourceTree = SOURCE_ROOT; };
+		78B59A02148CFEBA00782950 /* PSPDFSearchStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSearchStatusCell.h; sourceTree = "<group>"; };
+		78B59A03148CFEBA00782950 /* PSPDFSearchStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSearchStatusCell.m; sourceTree = "<group>"; };
+		78B59A04148CFEBA00782950 /* PSPDFSimpleTextExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSimpleTextExtractor.h; sourceTree = "<group>"; };
+		78B59A05148CFEBA00782950 /* PSPDFSimpleTextExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSimpleTextExtractor.m; sourceTree = "<group>"; };
+		78C22A63148013250092B889 /* PSPDFViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PSPDFViewController+Internal.h"; sourceTree = SOURCE_ROOT; };
+		78C22B6814805F2C0092B889 /* PSPDFKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PSPDFKit.bundle; sourceTree = SOURCE_ROOT; };
+		78C22B89148061D00092B889 /* UIImage+PSPDFKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PSPDFKitAdditions.h"; sourceTree = SOURCE_ROOT; };
+		78C22B8A148061D00092B889 /* UIImage+PSPDFKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PSPDFKitAdditions.m"; sourceTree = SOURCE_ROOT; };
+		78C7876314AA93F300E5E951 /* PSPDFPagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPagedScrollView.h; sourceTree = SOURCE_ROOT; };
+		78C7876414AA93F300E5E951 /* PSPDFPagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPagedScrollView.m; sourceTree = SOURCE_ROOT; };
+		78C7876514AA93F300E5E951 /* PSPDFPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPageViewController.h; sourceTree = SOURCE_ROOT; };
+		78C7876614AA93F300E5E951 /* PSPDFPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPageViewController.m; sourceTree = SOURCE_ROOT; };
+		78C7876714AA93F300E5E951 /* PSPDFSinglePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFSinglePageViewController.h; sourceTree = SOURCE_ROOT; };
+		78C7876814AA93F300E5E951 /* PSPDFSinglePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFSinglePageViewController.m; sourceTree = SOURCE_ROOT; };
+		78C912DF14961FB200559384 /* PSPDFHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFHUDView.h; sourceTree = SOURCE_ROOT; };
+		78C912E014961FB200559384 /* PSPDFHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFHUDView.m; sourceTree = SOURCE_ROOT; };
+		78C912E714961FC600559384 /* PSPDFPositionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPositionView.h; sourceTree = SOURCE_ROOT; };
+		78C912E814961FC600559384 /* PSPDFPositionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPositionView.m; sourceTree = SOURCE_ROOT; };
+		78D5673314731B1C001E4F5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78D5673614731B2A001E4F5E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		78D5673814731B6E001E4F5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78D5673A14731BC8001E4F5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78D5673C14731BD1001E4F5E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		78D64C5C1506E6E30003F899 /* PSPDFActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFActionSheet.h; sourceTree = SOURCE_ROOT; };
+		78D64C5D1506E6E30003F899 /* PSPDFActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFActionSheet.m; sourceTree = SOURCE_ROOT; };
+		78D64C5E1506E6E30003F899 /* PSPDFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFAlertView.h; sourceTree = SOURCE_ROOT; };
+		78D64C5F1506E6E30003F899 /* PSPDFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFAlertView.m; sourceTree = SOURCE_ROOT; };
+		78D64C691506E6EB0003F899 /* PSPDFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFBaseViewController.h; sourceTree = SOURCE_ROOT; };
+		78D64C6A1506E6EB0003F899 /* PSPDFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFBaseViewController.m; sourceTree = SOURCE_ROOT; };
+		78D64C751506E70D0003F899 /* PSPDFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFWebViewController.m; sourceTree = "<group>"; };
+		78D64C761506E70D0003F899 /* PSPDFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFWebViewController.h; sourceTree = "<group>"; };
+		78F2B99D147FF9C1009387AD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		78F2B99F147FF9CE009387AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78F2B9A1147FF9D5009387AD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		78F7080B1497FDCA00E38F0E /* PSPDFDocumentProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFDocumentProvider.h; sourceTree = SOURCE_ROOT; };
+		78F7080C1497FDCA00E38F0E /* PSPDFDocumentProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFDocumentProvider.m; sourceTree = SOURCE_ROOT; };
+		78FDF8D7147883CE00BE13FC /* PSPDFPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFPageView.h; sourceTree = SOURCE_ROOT; };
+		78FDF8D8147883CE00BE13FC /* PSPDFPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPDFPageView.m; sourceTree = SOURCE_ROOT; };
+		78FDF8E41478840E00BE13FC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9ECF71391485FB670006CE7B /* UIColor+PSPDFKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PSPDFKitAdditions.h"; sourceTree = SOURCE_ROOT; };
+		9ECF713A1485FB670006CE7B /* UIColor+PSPDFKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PSPDFKitAdditions.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780B4166146E7DAB00DF07F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F2B9A2147FF9D5009387AD /* CoreMedia.framework in Frameworks */,
+				78F2B9A0147FF9CE009387AD /* AVFoundation.framework in Frameworks */,
+				78F2B99E147FF9C1009387AD /* ImageIO.framework in Frameworks */,
+				78FDF8E51478840E00BE13FC /* MediaPlayer.framework in Frameworks */,
+				78D5673D14731BD2001E4F5E /* CoreText.framework in Frameworks */,
+				78D5673B14731BC8001E4F5E /* CoreGraphics.framework in Frameworks */,
+				78D5673914731B6E001E4F5E /* UIKit.framework in Frameworks */,
+				78D5673714731B2A001E4F5E /* MessageUI.framework in Frameworks */,
+				78D5673414731B1C001E4F5E /* QuartzCore.framework in Frameworks */,
+				780B416D146E7DAB00DF07F1 /* Foundation.framework in Frameworks */,
+				78687A641520F3350051DC1E /* libturbojpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7824B0E514A20A990053639E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7824B0E614A20A990053639E /* CoreMedia.framework in Frameworks */,
+				7824B0E714A20A990053639E /* AVFoundation.framework in Frameworks */,
+				7824B0E814A20A990053639E /* ImageIO.framework in Frameworks */,
+				7824B0E914A20A990053639E /* MediaPlayer.framework in Frameworks */,
+				7824B0EA14A20A990053639E /* CoreText.framework in Frameworks */,
+				7824B0EB14A20A990053639E /* CoreGraphics.framework in Frameworks */,
+				7824B0EC14A20A990053639E /* UIKit.framework in Frameworks */,
+				7824B0ED14A20A990053639E /* MessageUI.framework in Frameworks */,
+				7824B0EE14A20A990053639E /* QuartzCore.framework in Frameworks */,
+				7824B0EF14A20A990053639E /* Foundation.framework in Frameworks */,
+				78687A651520F3350051DC1E /* libturbojpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780B415E146E7DAB00DF07F1 = {
+			isa = PBXGroup;
+			children = (
+				780B416E146E7DAB00DF07F1 /* PSPDFKit */,
+				780B416B146E7DAB00DF07F1 /* Frameworks */,
+				780B416A146E7DAB00DF07F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780B416A146E7DAB00DF07F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780B4169146E7DAB00DF07F1 /* libPSPDFKit.a */,
+				7824B14114A20A990053639E /* libPSPDFKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780B416B146E7DAB00DF07F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F2B9A1147FF9D5009387AD /* CoreMedia.framework */,
+				78F2B99F147FF9CE009387AD /* AVFoundation.framework */,
+				78F2B99D147FF9C1009387AD /* ImageIO.framework */,
+				78FDF8E41478840E00BE13FC /* MediaPlayer.framework */,
+				78D5673C14731BD1001E4F5E /* CoreText.framework */,
+				78D5673A14731BC8001E4F5E /* CoreGraphics.framework */,
+				780B416C146E7DAB00DF07F1 /* Foundation.framework */,
+				78D5673814731B6E001E4F5E /* UIKit.framework */,
+				78D5673614731B2A001E4F5E /* MessageUI.framework */,
+				78D5673314731B1C001E4F5E /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		780B416E146E7DAB00DF07F1 /* PSPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				78687A601520F3350051DC1E /* Externals */,
+				780B4234146E7F1200DF07F1 /* Annotations */,
+				780B423D146E7F1200DF07F1 /* Outline */,
+				780B4244146E7F1200DF07F1 /* Search */,
+				780B424F146E7F1200DF07F1 /* Thumbnails */,
+				78178B8514E538EA00541BE8 /* PSPDFPatches.h */,
+				78178B8614E538EA00541BE8 /* PSPDFPatches.m */,
+				780B426C146E7F1200DF07F1 /* PSPDFCache.h */,
+				780B426D146E7F1200DF07F1 /* PSPDFCache.m */,
+				780B426E146E7F1200DF07F1 /* PSPDFDocument.h */,
+				780B426F146E7F1200DF07F1 /* PSPDFDocument.m */,
+				780B4270146E7F1200DF07F1 /* PSPDFGlobalLock.h */,
+				780B4271146E7F1200DF07F1 /* PSPDFGlobalLock.m */,
+				78F7080B1497FDCA00E38F0E /* PSPDFDocumentProvider.h */,
+				78F7080C1497FDCA00E38F0E /* PSPDFDocumentProvider.m */,
+				780B4272146E7F1200DF07F1 /* PSPDFKit.h */,
+				780B4273146E7F1200DF07F1 /* PSPDFKitGlobal.h */,
+				780B4274146E7F1200DF07F1 /* PSPDFKitGlobal.m */,
+				78FDF8D7147883CE00BE13FC /* PSPDFPageView.h */,
+				78FDF8D8147883CE00BE13FC /* PSPDFPageView.m */,
+				780B4277146E7F1200DF07F1 /* PSPDFPageInfo.h */,
+				780B4278146E7F1200DF07F1 /* PSPDFPageInfo.m */,
+				780B4279146E7F1200DF07F1 /* PSPDFPageRenderer.h */,
+				780B427A146E7F1200DF07F1 /* PSPDFPageRenderer.m */,
+				780B427B146E7F1200DF07F1 /* PSPDFScrobbleBar.h */,
+				780B427C146E7F1200DF07F1 /* PSPDFScrobbleBar.m */,
+				780B427D146E7F1200DF07F1 /* PSPDFScrollView.h */,
+				780B427E146E7F1200DF07F1 /* PSPDFScrollView.m */,
+				780B427F146E7F1200DF07F1 /* PSPDFTilingView.h */,
+				780B4280146E7F1200DF07F1 /* PSPDFTilingView.m */,
+				780B4281146E7F1200DF07F1 /* PSPDFTransparentToolbar.h */,
+				780B4282146E7F1200DF07F1 /* PSPDFTransparentToolbar.m */,
+				780B4283146E7F1200DF07F1 /* PSPDFViewController.h */,
+				780B4284146E7F1200DF07F1 /* PSPDFViewController.m */,
+				780B4285146E7F1200DF07F1 /* PSPDFViewControllerDelegate.h */,
+				78C22A63148013250092B889 /* PSPDFViewController+Internal.h */,
+				78C22B89148061D00092B889 /* UIImage+PSPDFKitAdditions.h */,
+				78C22B8A148061D00092B889 /* UIImage+PSPDFKitAdditions.m */,
+				9ECF71391485FB670006CE7B /* UIColor+PSPDFKitAdditions.h */,
+				9ECF713A1485FB670006CE7B /* UIColor+PSPDFKitAdditions.m */,
+				78C7876314AA93F300E5E951 /* PSPDFPagedScrollView.h */,
+				78C7876414AA93F300E5E951 /* PSPDFPagedScrollView.m */,
+				78C7876514AA93F300E5E951 /* PSPDFPageViewController.h */,
+				78C7876614AA93F300E5E951 /* PSPDFPageViewController.m */,
+				78C7876714AA93F300E5E951 /* PSPDFSinglePageViewController.h */,
+				78C7876814AA93F300E5E951 /* PSPDFSinglePageViewController.m */,
+				78C912DF14961FB200559384 /* PSPDFHUDView.h */,
+				78C912E014961FB200559384 /* PSPDFHUDView.m */,
+				78C912E714961FC600559384 /* PSPDFPositionView.h */,
+				78C912E814961FC600559384 /* PSPDFPositionView.m */,
+				78D64C691506E6EB0003F899 /* PSPDFBaseViewController.h */,
+				78D64C6A1506E6EB0003F899 /* PSPDFBaseViewController.m */,
+				78D64C5C1506E6E30003F899 /* PSPDFActionSheet.h */,
+				78D64C5D1506E6E30003F899 /* PSPDFActionSheet.m */,
+				78D64C5E1506E6E30003F899 /* PSPDFAlertView.h */,
+				78D64C5F1506E6E30003F899 /* PSPDFAlertView.m */,
+				78692EB31512F797009BC996 /* PSPDFIconGenerator.h */,
+				78692EB41512F797009BC996 /* PSPDFIconGenerator.m */,
+				780B42D7146E7F2700DF07F1 /* PSPDFKit-Prefix.pch */,
+				78C22B6814805F2C0092B889 /* PSPDFKit.bundle */,
+			);
+			path = PSPDFKit;
+			sourceTree = "<group>";
+		};
+		780B4234146E7F1200DF07F1 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				783D1D07148A4C17006C06F4 /* PSPDFAnnotationView.h */,
+				783D1D08148A4C17006C06F4 /* PSPDFAnnotationParser.h */,
+				781CFFDF14E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h */,
+				781CFFE014E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m */,
+				781CFFE114E4F5AD00BD5D50 /* PSYouTubeExtractor.h */,
+				781CFFE214E4F5AD00BD5D50 /* PSYouTubeExtractor.m */,
+				783D1D09148A4C17006C06F4 /* PSPDFHighlightAnnotationView.h */,
+				783D1D0A148A4C17006C06F4 /* PSPDFHighlightAnnotationView.m */,
+				783D1D0B148A4C17006C06F4 /* PSPDFLinkAnnotationView.h */,
+				783D1D0C148A4C17006C06F4 /* PSPDFLinkAnnotationView.m */,
+				783D1D0D148A4C17006C06F4 /* PSPDFVideoAnnotationView.h */,
+				783D1D0E148A4C17006C06F4 /* PSPDFVideoAnnotationView.m */,
+				783D1D0F148A4C17006C06F4 /* PSPDFWebAnnotationView.h */,
+				783D1D10148A4C17006C06F4 /* PSPDFWebAnnotationView.m */,
+				783771A414EEE7A000F5D39C /* PSPDFImageAnnotation.m */,
+				783771A514EEE7A000F5D39C /* PSPDFImageAnnotation.h */,
+				783D1D11148A4C17006C06F4 /* PSPDFAnnotation.h */,
+				783D1D12148A4C17006C06F4 /* PSPDFAnnotation.m */,
+				783D1D13148A4C17006C06F4 /* PSPDFAnnotationParser.m */,
+				78D64C751506E70D0003F899 /* PSPDFWebViewController.m */,
+				78D64C761506E70D0003F899 /* PSPDFWebViewController.h */,
+				783D1D16148A4C17006C06F4 /* PSPDFTilingView+Annotations.h */,
+				783D1D17148A4C17006C06F4 /* PSPDFTilingView+Annotations.m */,
+			);
+			path = Annotations;
+			sourceTree = SOURCE_ROOT;
+		};
+		780B423D146E7F1200DF07F1 /* Outline */ = {
+			isa = PBXGroup;
+			children = (
+				780B423E146E7F1200DF07F1 /* PSPDFOutlineElement.h */,
+				780B423F146E7F1200DF07F1 /* PSPDFOutlineElement.m */,
+				780B4240146E7F1200DF07F1 /* PSPDFOutlineParser.h */,
+				780B4241146E7F1200DF07F1 /* PSPDFOutlineParser.m */,
+				780B4242146E7F1200DF07F1 /* PSPDFOutlineViewController.h */,
+				780B4243146E7F1200DF07F1 /* PSPDFOutlineViewController.m */,
+				78692EAC1512F783009BC996 /* PSPDFOutlineCell.h */,
+				78692EAD1512F783009BC996 /* PSPDFOutlineCell.m */,
+			);
+			path = Outline;
+			sourceTree = SOURCE_ROOT;
+		};
+		780B4244146E7F1200DF07F1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				783D1C94148A4BCA006C06F4 /* PDFKitten */,
+				780B4245146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.h */,
+				780B4246146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.m */,
+				780B4247146E7F1200DF07F1 /* PSPDFDocumentSearcher.h */,
+				780B4248146E7F1200DF07F1 /* PSPDFDocumentSearcher.m */,
+				780B424A146E7F1200DF07F1 /* PSPDFSearchResult.m */,
+				780B4249146E7F1200DF07F1 /* PSPDFSearchResult.h */,
+				780B424B146E7F1200DF07F1 /* PSPDFSearchViewController.h */,
+				780B424C146E7F1200DF07F1 /* PSPDFSearchViewController.m */,
+				783D1C8C148A4BBA006C06F4 /* PSPDFSearchHighlightView.m */,
+				783D1C8D148A4BBA006C06F4 /* PSPDFSearchHighlightView.h */,
+				783D1C8E148A4BBA006C06F4 /* PSPDFSearchOperation.h */,
+				783D1C8B148A4BBA006C06F4 /* PSPDFSearchOperation.m */,
+				78B59A02148CFEBA00782950 /* PSPDFSearchStatusCell.h */,
+				78B59A03148CFEBA00782950 /* PSPDFSearchStatusCell.m */,
+				78B59A04148CFEBA00782950 /* PSPDFSimpleTextExtractor.h */,
+				78B59A05148CFEBA00782950 /* PSPDFSimpleTextExtractor.m */,
+				781EA96D14A7437600026B4F /* PSPDFAttributedLabel.h */,
+				781EA96E14A7437600026B4F /* PSPDFAttributedLabel.m */,
+			);
+			path = Search;
+			sourceTree = SOURCE_ROOT;
+		};
+		780B424F146E7F1200DF07F1 /* Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				78687A9D15210E040051DC1E /* PSPDFGridView.h */,
+				78687A9E15210E040051DC1E /* PSPDFGridView.m */,
+				78687A9F15210E040051DC1E /* PSPDFGridViewCell.h */,
+				78687AA015210E040051DC1E /* PSPDFGridViewCell.m */,
+				78687AA115210E040051DC1E /* PSPDFGridViewCell+Extended.h */,
+				78687AA215210E040051DC1E /* PSPDFGridViewLayoutStrategies.h */,
+				78687AA315210E040051DC1E /* PSPDFGridViewLayoutStrategies.m */,
+				780B4268146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.h */,
+				780B4269146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.m */,
+			);
+			path = Thumbnails;
+			sourceTree = SOURCE_ROOT;
+		};
+		783D1C94148A4BCA006C06F4 /* PDFKitten */ = {
+			isa = PBXGroup;
+			children = (
+				783D1D06148A4BEE006C06F4 /* Font */,
+				783D1C99148A4BCA006C06F4 /* CMap.h */,
+				783D1C9A148A4BCA006C06F4 /* CMap.m */,
+				783D1CA5148A4BCA006C06F4 /* FontCollection.h */,
+				783D1CA6148A4BCA006C06F4 /* FontCollection.m */,
+				783D1CA7148A4BCA006C06F4 /* FontDescriptor.h */,
+				783D1CA8148A4BCA006C06F4 /* FontDescriptor.m */,
+				783D1CBB148A4BCA006C06F4 /* RenderingState.h */,
+				783D1CBC148A4BCA006C06F4 /* RenderingState.m */,
+				783D1CC2148A4BCA006C06F4 /* Scanner.h */,
+				783D1CC3148A4BCA006C06F4 /* Scanner.m */,
+				783D1CC4148A4BCA006C06F4 /* Selection.h */,
+				783D1CC5148A4BCA006C06F4 /* Selection.m */,
+				783D1CC8148A4BCA006C06F4 /* StringDetector.h */,
+				783D1CC9148A4BCA006C06F4 /* StringDetector.m */,
+			);
+			name = PDFKitten;
+			path = PDFKitten/PDFKitten;
+			sourceTree = "<group>";
+		};
+		783D1D06148A4BEE006C06F4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				783D1C95148A4BCA006C06F4 /* CIDType0Font.h */,
+				783D1C96148A4BCA006C06F4 /* CIDType0Font.m */,
+				783D1C97148A4BCA006C06F4 /* CIDType2Font.h */,
+				783D1C98148A4BCA006C06F4 /* CIDType2Font.m */,
+				783D1C9B148A4BCA006C06F4 /* CompositeFont.h */,
+				783D1C9C148A4BCA006C06F4 /* CompositeFont.m */,
+				783D1CA3148A4BCA006C06F4 /* Font.h */,
+				783D1CA4148A4BCA006C06F4 /* Font.m */,
+				783D1CAA148A4BCA006C06F4 /* MMType1Font.h */,
+				783D1CAB148A4BCA006C06F4 /* MMType1Font.m */,
+				783D1CC6148A4BCA006C06F4 /* SimpleFont.h */,
+				783D1CC7148A4BCA006C06F4 /* SimpleFont.m */,
+				783D1CCA148A4BCA006C06F4 /* TrueTypeFont.h */,
+				783D1CCB148A4BCA006C06F4 /* TrueTypeFont.m */,
+				783D1CCC148A4BCA006C06F4 /* Type0Font.h */,
+				783D1CCD148A4BCA006C06F4 /* Type0Font.m */,
+				783D1CCE148A4BCA006C06F4 /* Type1Font.h */,
+				783D1CCF148A4BCA006C06F4 /* Type1Font.m */,
+				783D1CD0148A4BCA006C06F4 /* Type3Font.h */,
+				783D1CD1148A4BCA006C06F4 /* Type3Font.m */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		78687A601520F3350051DC1E /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				78687A611520F3350051DC1E /* libturbojpeg */,
+			);
+			path = Externals;
+			sourceTree = SOURCE_ROOT;
+		};
+		78687A611520F3350051DC1E /* libturbojpeg */ = {
+			isa = PBXGroup;
+			children = (
+				78687A621520F3350051DC1E /* libturbojpeg.a */,
+				78687A631520F3350051DC1E /* turbojpeg.h */,
+			);
+			path = libturbojpeg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		780B4167146E7DAB00DF07F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B4290146E7F1200DF07F1 /* PSPDFOutlineElement.h in Headers */,
+				780B4292146E7F1200DF07F1 /* PSPDFOutlineParser.h in Headers */,
+				780B4294146E7F1200DF07F1 /* PSPDFOutlineViewController.h in Headers */,
+				780B4296146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.h in Headers */,
+				780B4298146E7F1200DF07F1 /* PSPDFDocumentSearcher.h in Headers */,
+				780B429A146E7F1200DF07F1 /* PSPDFSearchResult.h in Headers */,
+				780B429C146E7F1200DF07F1 /* PSPDFSearchViewController.h in Headers */,
+				780B42B7146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.h in Headers */,
+				780B42BB146E7F1200DF07F1 /* PSPDFCache.h in Headers */,
+				780B42BD146E7F1200DF07F1 /* PSPDFDocument.h in Headers */,
+				780B42BF146E7F1200DF07F1 /* PSPDFGlobalLock.h in Headers */,
+				780B42C1146E7F1200DF07F1 /* PSPDFKit.h in Headers */,
+				780B42C2146E7F1200DF07F1 /* PSPDFKitGlobal.h in Headers */,
+				780B42C6146E7F1200DF07F1 /* PSPDFPageInfo.h in Headers */,
+				780B42C8146E7F1200DF07F1 /* PSPDFPageRenderer.h in Headers */,
+				780B42CA146E7F1200DF07F1 /* PSPDFScrobbleBar.h in Headers */,
+				780B42CC146E7F1200DF07F1 /* PSPDFScrollView.h in Headers */,
+				780B42CE146E7F1200DF07F1 /* PSPDFTilingView.h in Headers */,
+				780B42D0146E7F1200DF07F1 /* PSPDFTransparentToolbar.h in Headers */,
+				780B42D2146E7F1200DF07F1 /* PSPDFViewController.h in Headers */,
+				780B42D4146E7F1200DF07F1 /* PSPDFViewControllerDelegate.h in Headers */,
+				780B42D8146E7F2700DF07F1 /* PSPDFKit-Prefix.pch in Headers */,
+				78FDF8D9147883CE00BE13FC /* PSPDFPageView.h in Headers */,
+				78C22A64148013250092B889 /* PSPDFViewController+Internal.h in Headers */,
+				78C22B8B148061D00092B889 /* UIImage+PSPDFKitAdditions.h in Headers */,
+				9ECF713B1485FB670006CE7B /* UIColor+PSPDFKitAdditions.h in Headers */,
+				783D1C91148A4BBA006C06F4 /* PSPDFSearchHighlightView.h in Headers */,
+				783D1C92148A4BBA006C06F4 /* PSPDFSearchOperation.h in Headers */,
+				783D1D18148A4C17006C06F4 /* PSPDFAnnotationView.h in Headers */,
+				783D1D19148A4C17006C06F4 /* PSPDFAnnotationParser.h in Headers */,
+				783D1D1A148A4C17006C06F4 /* PSPDFHighlightAnnotationView.h in Headers */,
+				783D1D1C148A4C17006C06F4 /* PSPDFLinkAnnotationView.h in Headers */,
+				783D1D1E148A4C17006C06F4 /* PSPDFVideoAnnotationView.h in Headers */,
+				783D1D20148A4C17006C06F4 /* PSPDFWebAnnotationView.h in Headers */,
+				783D1D22148A4C17006C06F4 /* PSPDFAnnotation.h in Headers */,
+				783D1D27148A4C17006C06F4 /* PSPDFTilingView+Annotations.h in Headers */,
+				78B59A06148CFEBA00782950 /* PSPDFSearchStatusCell.h in Headers */,
+				78B59A08148CFEBA00782950 /* PSPDFSimpleTextExtractor.h in Headers */,
+				78C912E314961FB200559384 /* PSPDFHUDView.h in Headers */,
+				78C912E914961FC700559384 /* PSPDFPositionView.h in Headers */,
+				78F7080D1497FDCA00E38F0E /* PSPDFDocumentProvider.h in Headers */,
+				783D1CD2148A4BCA006C06F4 /* CIDType0Font.h in Headers */,
+				783D1CD4148A4BCA006C06F4 /* CIDType2Font.h in Headers */,
+				783D1CD6148A4BCA006C06F4 /* CMap.h in Headers */,
+				783D1CD8148A4BCA006C06F4 /* CompositeFont.h in Headers */,
+				783D1CDC148A4BCA006C06F4 /* Font.h in Headers */,
+				783D1CDE148A4BCA006C06F4 /* FontCollection.h in Headers */,
+				783D1CE0148A4BCA006C06F4 /* FontDescriptor.h in Headers */,
+				783D1CE3148A4BCA006C06F4 /* MMType1Font.h in Headers */,
+				783D1CF2148A4BCA006C06F4 /* RenderingState.h in Headers */,
+				783D1CF6148A4BCA006C06F4 /* Scanner.h in Headers */,
+				783D1CF8148A4BCA006C06F4 /* Selection.h in Headers */,
+				783D1CFA148A4BCA006C06F4 /* SimpleFont.h in Headers */,
+				783D1CFC148A4BCA006C06F4 /* StringDetector.h in Headers */,
+				783D1CFE148A4BCA006C06F4 /* TrueTypeFont.h in Headers */,
+				783D1D00148A4BCA006C06F4 /* Type0Font.h in Headers */,
+				783D1D02148A4BCA006C06F4 /* Type1Font.h in Headers */,
+				783D1D04148A4BCA006C06F4 /* Type3Font.h in Headers */,
+				781EA96F14A7437600026B4F /* PSPDFAttributedLabel.h in Headers */,
+				78C7876914AA93F300E5E951 /* PSPDFPagedScrollView.h in Headers */,
+				78C7876D14AA93F300E5E951 /* PSPDFPageViewController.h in Headers */,
+				78C7877114AA93F300E5E951 /* PSPDFSinglePageViewController.h in Headers */,
+				781CFFE314E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h in Headers */,
+				781CFFE714E4F5AD00BD5D50 /* PSYouTubeExtractor.h in Headers */,
+				78178B8714E538EA00541BE8 /* PSPDFPatches.h in Headers */,
+				783771A814EEE7A000F5D39C /* PSPDFImageAnnotation.h in Headers */,
+				78D64C601506E6E30003F899 /* PSPDFActionSheet.h in Headers */,
+				78D64C641506E6E30003F899 /* PSPDFAlertView.h in Headers */,
+				78D64C6B1506E6EB0003F899 /* PSPDFBaseViewController.h in Headers */,
+				78D64C791506E70D0003F899 /* PSPDFWebViewController.h in Headers */,
+				78692EAE1512F783009BC996 /* PSPDFOutlineCell.h in Headers */,
+				78692EB51512F797009BC996 /* PSPDFIconGenerator.h in Headers */,
+				78687A661520F3350051DC1E /* turbojpeg.h in Headers */,
+				78687AA415210E040051DC1E /* PSPDFGridView.h in Headers */,
+				78687AA815210E040051DC1E /* PSPDFGridViewCell.h in Headers */,
+				78687AAC15210E040051DC1E /* PSPDFGridViewCell+Extended.h in Headers */,
+				78687AAE15210E040051DC1E /* PSPDFGridViewLayoutStrategies.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7824B0F014A20A990053639E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7824B0F114A20A990053639E /* PSPDFOutlineElement.h in Headers */,
+				7824B0F214A20A990053639E /* PSPDFOutlineParser.h in Headers */,
+				7824B0F314A20A990053639E /* PSPDFOutlineViewController.h in Headers */,
+				7824B0F414A20A990053639E /* NSMutableAttributedString+PSPDFKitAdditions.h in Headers */,
+				7824B0F514A20A990053639E /* PSPDFDocumentSearcher.h in Headers */,
+				7824B0F614A20A990053639E /* PSPDFSearchResult.h in Headers */,
+				7824B0F714A20A990053639E /* PSPDFSearchViewController.h in Headers */,
+				7824B0F914A20A990053639E /* PSPDFThumbnailGridViewCell.h in Headers */,
+				7824B0FA14A20A990053639E /* PSPDFCache.h in Headers */,
+				7824B0FB14A20A990053639E /* PSPDFDocument.h in Headers */,
+				7824B0FC14A20A990053639E /* PSPDFGlobalLock.h in Headers */,
+				7824B0FD14A20A990053639E /* PSPDFKit.h in Headers */,
+				7824B0FE14A20A990053639E /* PSPDFKitGlobal.h in Headers */,
+				7824B0FF14A20A990053639E /* PSPDFPageInfo.h in Headers */,
+				7824B10014A20A990053639E /* PSPDFPageRenderer.h in Headers */,
+				7824B10114A20A990053639E /* PSPDFScrobbleBar.h in Headers */,
+				7824B10214A20A990053639E /* PSPDFScrollView.h in Headers */,
+				7824B10314A20A990053639E /* PSPDFTilingView.h in Headers */,
+				7824B10414A20A990053639E /* PSPDFTransparentToolbar.h in Headers */,
+				7824B10514A20A990053639E /* PSPDFViewController.h in Headers */,
+				7824B10614A20A990053639E /* PSPDFViewControllerDelegate.h in Headers */,
+				7824B10814A20A990053639E /* PSPDFKit-Prefix.pch in Headers */,
+				7824B10914A20A990053639E /* PSPDFPageView.h in Headers */,
+				7824B11214A20A990053639E /* PSPDFViewController+Internal.h in Headers */,
+				7824B11314A20A990053639E /* UIImage+PSPDFKitAdditions.h in Headers */,
+				7824B11414A20A990053639E /* UIColor+PSPDFKitAdditions.h in Headers */,
+				7824B11514A20A990053639E /* PSPDFSearchHighlightView.h in Headers */,
+				7824B11614A20A990053639E /* PSPDFSearchOperation.h in Headers */,
+				7824B11714A20A990053639E /* PSPDFAnnotationView.h in Headers */,
+				7824B11814A20A990053639E /* PSPDFAnnotationParser.h in Headers */,
+				7824B11914A20A990053639E /* PSPDFHighlightAnnotationView.h in Headers */,
+				7824B11A14A20A990053639E /* PSPDFLinkAnnotationView.h in Headers */,
+				7824B11B14A20A990053639E /* PSPDFVideoAnnotationView.h in Headers */,
+				7824B11C14A20A990053639E /* PSPDFWebAnnotationView.h in Headers */,
+				7824B11D14A20A990053639E /* PSPDFAnnotation.h in Headers */,
+				7824B11F14A20A990053639E /* PSPDFTilingView+Annotations.h in Headers */,
+				7824B12014A20A990053639E /* PSPDFSearchStatusCell.h in Headers */,
+				7824B12114A20A990053639E /* PSPDFSimpleTextExtractor.h in Headers */,
+				7824B12214A20A990053639E /* PSPDFHUDView.h in Headers */,
+				7824B12314A20A990053639E /* PSPDFPositionView.h in Headers */,
+				7824B12414A20A990053639E /* PSPDFDocumentProvider.h in Headers */,
+				7824B12514A20A990053639E /* CIDType0Font.h in Headers */,
+				7824B12614A20A990053639E /* CIDType2Font.h in Headers */,
+				7824B12714A20A990053639E /* CMap.h in Headers */,
+				7824B12814A20A990053639E /* CompositeFont.h in Headers */,
+				7824B12914A20A990053639E /* Font.h in Headers */,
+				7824B12A14A20A990053639E /* FontCollection.h in Headers */,
+				7824B12B14A20A990053639E /* FontDescriptor.h in Headers */,
+				7824B12C14A20A990053639E /* MMType1Font.h in Headers */,
+				7824B12D14A20A990053639E /* RenderingState.h in Headers */,
+				7824B12E14A20A990053639E /* Scanner.h in Headers */,
+				7824B12F14A20A990053639E /* Selection.h in Headers */,
+				7824B13014A20A990053639E /* SimpleFont.h in Headers */,
+				7824B13114A20A990053639E /* StringDetector.h in Headers */,
+				7824B13214A20A990053639E /* TrueTypeFont.h in Headers */,
+				7824B13314A20A990053639E /* Type0Font.h in Headers */,
+				7824B13414A20A990053639E /* Type1Font.h in Headers */,
+				7824B13514A20A990053639E /* Type3Font.h in Headers */,
+				781EA97014A7437600026B4F /* PSPDFAttributedLabel.h in Headers */,
+				78C7876A14AA93F300E5E951 /* PSPDFPagedScrollView.h in Headers */,
+				78C7876E14AA93F300E5E951 /* PSPDFPageViewController.h in Headers */,
+				78C7877214AA93F300E5E951 /* PSPDFSinglePageViewController.h in Headers */,
+				781CFFE414E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.h in Headers */,
+				781CFFE814E4F5AD00BD5D50 /* PSYouTubeExtractor.h in Headers */,
+				78178B8814E538EA00541BE8 /* PSPDFPatches.h in Headers */,
+				783771A914EEE7A000F5D39C /* PSPDFImageAnnotation.h in Headers */,
+				78D64C611506E6E30003F899 /* PSPDFActionSheet.h in Headers */,
+				78D64C651506E6E30003F899 /* PSPDFAlertView.h in Headers */,
+				78D64C6C1506E6EB0003F899 /* PSPDFBaseViewController.h in Headers */,
+				78D64C7A1506E70D0003F899 /* PSPDFWebViewController.h in Headers */,
+				78692EAF1512F783009BC996 /* PSPDFOutlineCell.h in Headers */,
+				78692EB61512F797009BC996 /* PSPDFIconGenerator.h in Headers */,
+				78687A671520F3350051DC1E /* turbojpeg.h in Headers */,
+				78687AA515210E040051DC1E /* PSPDFGridView.h in Headers */,
+				78687AA915210E040051DC1E /* PSPDFGridViewCell.h in Headers */,
+				78687AAD15210E040051DC1E /* PSPDFGridViewCell+Extended.h in Headers */,
+				78687AAF15210E040051DC1E /* PSPDFGridViewLayoutStrategies.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		780B4168146E7DAB00DF07F1 /* PSPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780B4176146E7DAB00DF07F1 /* Build configuration list for PBXNativeTarget "PSPDFKit" */;
+			buildPhases = (
+				780B4165146E7DAB00DF07F1 /* Sources */,
+				780B4166146E7DAB00DF07F1 /* Frameworks */,
+				780B4167146E7DAB00DF07F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784BC22C14EC55B300F55047 /* PBXTargetDependency */,
+			);
+			name = PSPDFKit;
+			productName = PSPDFKit;
+			productReference = 780B4169146E7DAB00DF07F1 /* libPSPDFKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7824B09614A20A990053639E /* PSPDFKit-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7824B13D14A20A990053639E /* Build configuration list for PBXNativeTarget "PSPDFKit-Demo" */;
+			buildPhases = (
+				7824B09714A20A990053639E /* Sources */,
+				7824B0E514A20A990053639E /* Frameworks */,
+				7824B0F014A20A990053639E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784BC22E14EC55B600F55047 /* PBXTargetDependency */,
+			);
+			name = "PSPDFKit-Demo";
+			productName = PSPDFKit;
+			productReference = 7824B14114A20A990053639E /* libPSPDFKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780B4160146E7DAB00DF07F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Peter Steinberger";
+			};
+			buildConfigurationList = 780B4163146E7DAB00DF07F1 /* Build configuration list for PBXProject "PSPDFKit-lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 780B415E146E7DAB00DF07F1;
+			productRefGroup = 780B416A146E7DAB00DF07F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				780B4168146E7DAB00DF07F1 /* PSPDFKit */,
+				7824B09614A20A990053639E /* PSPDFKit-Demo */,
+				784BC22614EC55A000F55047 /* TouchVersionFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		784BC22A14EC55A700F55047 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "git=`sh /etc/profile; which git`\ngitdir=`$git rev-parse --git-dir 2> /dev/null`\n\n# only modify git version if a git directory is present\nif [ $gitdir != \"\" ]; then\n  `rm InfoPlist.h 2> /dev/null`\n  version=`$git describe --tags --always`\n  count=`$git rev-list --all |wc -l`\n  echo -e \"#define GIT_VERSION @\\\"$version\\\"\\n#define GIT_COMMIT_COUNT $count\" > InfoPlist.h\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		780B4165146E7DAB00DF07F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B4291146E7F1200DF07F1 /* PSPDFOutlineElement.m in Sources */,
+				780B4293146E7F1200DF07F1 /* PSPDFOutlineParser.m in Sources */,
+				780B4295146E7F1200DF07F1 /* PSPDFOutlineViewController.m in Sources */,
+				780B4297146E7F1200DF07F1 /* NSMutableAttributedString+PSPDFKitAdditions.m in Sources */,
+				780B4299146E7F1200DF07F1 /* PSPDFDocumentSearcher.m in Sources */,
+				780B429B146E7F1200DF07F1 /* PSPDFSearchResult.m in Sources */,
+				780B429D146E7F1200DF07F1 /* PSPDFSearchViewController.m in Sources */,
+				780B42B8146E7F1200DF07F1 /* PSPDFThumbnailGridViewCell.m in Sources */,
+				780B42BC146E7F1200DF07F1 /* PSPDFCache.m in Sources */,
+				780B42BE146E7F1200DF07F1 /* PSPDFDocument.m in Sources */,
+				780B42C0146E7F1200DF07F1 /* PSPDFGlobalLock.m in Sources */,
+				780B42C3146E7F1200DF07F1 /* PSPDFKitGlobal.m in Sources */,
+				780B42C7146E7F1200DF07F1 /* PSPDFPageInfo.m in Sources */,
+				780B42C9146E7F1200DF07F1 /* PSPDFPageRenderer.m in Sources */,
+				780B42CB146E7F1200DF07F1 /* PSPDFScrobbleBar.m in Sources */,
+				780B42CD146E7F1200DF07F1 /* PSPDFScrollView.m in Sources */,
+				780B42CF146E7F1200DF07F1 /* PSPDFTilingView.m in Sources */,
+				780B42D1146E7F1200DF07F1 /* PSPDFTransparentToolbar.m in Sources */,
+				780B42D3146E7F1200DF07F1 /* PSPDFViewController.m in Sources */,
+				78FDF8DA147883CE00BE13FC /* PSPDFPageView.m in Sources */,
+				78C22B8C148061D00092B889 /* UIImage+PSPDFKitAdditions.m in Sources */,
+				9ECF713C1485FB670006CE7B /* UIColor+PSPDFKitAdditions.m in Sources */,
+				783D1C8F148A4BBA006C06F4 /* PSPDFSearchOperation.m in Sources */,
+				783D1C90148A4BBA006C06F4 /* PSPDFSearchHighlightView.m in Sources */,
+				783D1CD3148A4BCA006C06F4 /* CIDType0Font.m in Sources */,
+				783D1CD5148A4BCA006C06F4 /* CIDType2Font.m in Sources */,
+				783D1CD7148A4BCA006C06F4 /* CMap.m in Sources */,
+				783D1CD9148A4BCA006C06F4 /* CompositeFont.m in Sources */,
+				783D1CDD148A4BCA006C06F4 /* Font.m in Sources */,
+				783D1CDF148A4BCA006C06F4 /* FontCollection.m in Sources */,
+				783D1CE1148A4BCA006C06F4 /* FontDescriptor.m in Sources */,
+				783D1CE4148A4BCA006C06F4 /* MMType1Font.m in Sources */,
+				783D1CF3148A4BCA006C06F4 /* RenderingState.m in Sources */,
+				783D1CF7148A4BCA006C06F4 /* Scanner.m in Sources */,
+				783D1CF9148A4BCA006C06F4 /* Selection.m in Sources */,
+				783D1CFB148A4BCA006C06F4 /* SimpleFont.m in Sources */,
+				783D1CFD148A4BCA006C06F4 /* StringDetector.m in Sources */,
+				783D1CFF148A4BCA006C06F4 /* TrueTypeFont.m in Sources */,
+				783D1D01148A4BCA006C06F4 /* Type0Font.m in Sources */,
+				783D1D03148A4BCA006C06F4 /* Type1Font.m in Sources */,
+				783D1D05148A4BCA006C06F4 /* Type3Font.m in Sources */,
+				783D1D1B148A4C17006C06F4 /* PSPDFHighlightAnnotationView.m in Sources */,
+				783D1D1D148A4C17006C06F4 /* PSPDFLinkAnnotationView.m in Sources */,
+				783D1D1F148A4C17006C06F4 /* PSPDFVideoAnnotationView.m in Sources */,
+				783D1D21148A4C17006C06F4 /* PSPDFWebAnnotationView.m in Sources */,
+				783D1D23148A4C17006C06F4 /* PSPDFAnnotation.m in Sources */,
+				783D1D24148A4C17006C06F4 /* PSPDFAnnotationParser.m in Sources */,
+				783D1D28148A4C17006C06F4 /* PSPDFTilingView+Annotations.m in Sources */,
+				78B59A07148CFEBA00782950 /* PSPDFSearchStatusCell.m in Sources */,
+				78B59A09148CFEBA00782950 /* PSPDFSimpleTextExtractor.m in Sources */,
+				78C912E414961FB200559384 /* PSPDFHUDView.m in Sources */,
+				78C912EA14961FC700559384 /* PSPDFPositionView.m in Sources */,
+				78F7080E1497FDCA00E38F0E /* PSPDFDocumentProvider.m in Sources */,
+				781EA97114A7437600026B4F /* PSPDFAttributedLabel.m in Sources */,
+				78C7876B14AA93F300E5E951 /* PSPDFPagedScrollView.m in Sources */,
+				78C7876F14AA93F300E5E951 /* PSPDFPageViewController.m in Sources */,
+				78C7877314AA93F300E5E951 /* PSPDFSinglePageViewController.m in Sources */,
+				781CFFE514E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m in Sources */,
+				781CFFE914E4F5AD00BD5D50 /* PSYouTubeExtractor.m in Sources */,
+				78178B8914E538EA00541BE8 /* PSPDFPatches.m in Sources */,
+				783771A614EEE7A000F5D39C /* PSPDFImageAnnotation.m in Sources */,
+				78D64C621506E6E30003F899 /* PSPDFActionSheet.m in Sources */,
+				78D64C661506E6E30003F899 /* PSPDFAlertView.m in Sources */,
+				78D64C6D1506E6EB0003F899 /* PSPDFBaseViewController.m in Sources */,
+				78D64C771506E70D0003F899 /* PSPDFWebViewController.m in Sources */,
+				78692EB01512F783009BC996 /* PSPDFOutlineCell.m in Sources */,
+				78692EB71512F797009BC996 /* PSPDFIconGenerator.m in Sources */,
+				78687AA615210E040051DC1E /* PSPDFGridView.m in Sources */,
+				78687AAA15210E040051DC1E /* PSPDFGridViewCell.m in Sources */,
+				78687AB015210E040051DC1E /* PSPDFGridViewLayoutStrategies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7824B09714A20A990053639E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7824B09814A20A990053639E /* PSPDFOutlineElement.m in Sources */,
+				7824B09914A20A990053639E /* PSPDFOutlineParser.m in Sources */,
+				7824B09A14A20A990053639E /* PSPDFOutlineViewController.m in Sources */,
+				7824B09B14A20A990053639E /* NSMutableAttributedString+PSPDFKitAdditions.m in Sources */,
+				7824B09C14A20A990053639E /* PSPDFDocumentSearcher.m in Sources */,
+				7824B09D14A20A990053639E /* PSPDFSearchResult.m in Sources */,
+				7824B09E14A20A990053639E /* PSPDFSearchViewController.m in Sources */,
+				7824B0A014A20A990053639E /* PSPDFThumbnailGridViewCell.m in Sources */,
+				7824B0A114A20A990053639E /* PSPDFCache.m in Sources */,
+				7824B0A214A20A990053639E /* PSPDFDocument.m in Sources */,
+				7824B0A314A20A990053639E /* PSPDFGlobalLock.m in Sources */,
+				7824B0A414A20A990053639E /* PSPDFKitGlobal.m in Sources */,
+				7824B0A514A20A990053639E /* PSPDFPageInfo.m in Sources */,
+				7824B0A614A20A990053639E /* PSPDFPageRenderer.m in Sources */,
+				7824B0A714A20A990053639E /* PSPDFScrobbleBar.m in Sources */,
+				7824B0A814A20A990053639E /* PSPDFScrollView.m in Sources */,
+				7824B0A914A20A990053639E /* PSPDFTilingView.m in Sources */,
+				7824B0AA14A20A990053639E /* PSPDFTransparentToolbar.m in Sources */,
+				7824B0AB14A20A990053639E /* PSPDFViewController.m in Sources */,
+				7824B0AD14A20A990053639E /* PSPDFPageView.m in Sources */,
+				7824B0BE14A20A990053639E /* UIImage+PSPDFKitAdditions.m in Sources */,
+				7824B0BF14A20A990053639E /* UIColor+PSPDFKitAdditions.m in Sources */,
+				7824B0C014A20A990053639E /* PSPDFSearchOperation.m in Sources */,
+				7824B0C114A20A990053639E /* PSPDFSearchHighlightView.m in Sources */,
+				7824B0C214A20A990053639E /* CIDType0Font.m in Sources */,
+				7824B0C314A20A990053639E /* CIDType2Font.m in Sources */,
+				7824B0C414A20A990053639E /* CMap.m in Sources */,
+				7824B0C514A20A990053639E /* CompositeFont.m in Sources */,
+				7824B0C614A20A990053639E /* Font.m in Sources */,
+				7824B0C714A20A990053639E /* FontCollection.m in Sources */,
+				7824B0C814A20A990053639E /* FontDescriptor.m in Sources */,
+				7824B0C914A20A990053639E /* MMType1Font.m in Sources */,
+				7824B0CA14A20A990053639E /* RenderingState.m in Sources */,
+				7824B0CB14A20A990053639E /* Scanner.m in Sources */,
+				7824B0CC14A20A990053639E /* Selection.m in Sources */,
+				7824B0CD14A20A990053639E /* SimpleFont.m in Sources */,
+				7824B0CE14A20A990053639E /* StringDetector.m in Sources */,
+				7824B0CF14A20A990053639E /* TrueTypeFont.m in Sources */,
+				7824B0D014A20A990053639E /* Type0Font.m in Sources */,
+				7824B0D114A20A990053639E /* Type1Font.m in Sources */,
+				7824B0D214A20A990053639E /* Type3Font.m in Sources */,
+				7824B0D314A20A990053639E /* PSPDFHighlightAnnotationView.m in Sources */,
+				7824B0D414A20A990053639E /* PSPDFLinkAnnotationView.m in Sources */,
+				7824B0D514A20A990053639E /* PSPDFVideoAnnotationView.m in Sources */,
+				7824B0D614A20A990053639E /* PSPDFWebAnnotationView.m in Sources */,
+				7824B0D714A20A990053639E /* PSPDFAnnotation.m in Sources */,
+				7824B0D814A20A990053639E /* PSPDFAnnotationParser.m in Sources */,
+				7824B0DA14A20A990053639E /* PSPDFTilingView+Annotations.m in Sources */,
+				7824B0DB14A20A990053639E /* PSPDFSearchStatusCell.m in Sources */,
+				7824B0DC14A20A990053639E /* PSPDFSimpleTextExtractor.m in Sources */,
+				7824B0DD14A20A990053639E /* PSPDFHUDView.m in Sources */,
+				7824B0DE14A20A990053639E /* PSPDFPositionView.m in Sources */,
+				7824B0DF14A20A990053639E /* PSPDFDocumentProvider.m in Sources */,
+				781EA97214A7437600026B4F /* PSPDFAttributedLabel.m in Sources */,
+				78C7876C14AA93F300E5E951 /* PSPDFPagedScrollView.m in Sources */,
+				78C7877014AA93F300E5E951 /* PSPDFPageViewController.m in Sources */,
+				78C7877414AA93F300E5E951 /* PSPDFSinglePageViewController.m in Sources */,
+				781CFFE614E4F5AD00BD5D50 /* PSPDFYouTubeAnnotationView.m in Sources */,
+				781CFFEA14E4F5AD00BD5D50 /* PSYouTubeExtractor.m in Sources */,
+				78178B8A14E538EA00541BE8 /* PSPDFPatches.m in Sources */,
+				783771A714EEE7A000F5D39C /* PSPDFImageAnnotation.m in Sources */,
+				78D64C631506E6E30003F899 /* PSPDFActionSheet.m in Sources */,
+				78D64C671506E6E30003F899 /* PSPDFAlertView.m in Sources */,
+				78D64C6E1506E6EB0003F899 /* PSPDFBaseViewController.m in Sources */,
+				78D64C781506E70D0003F899 /* PSPDFWebViewController.m in Sources */,
+				78692EB11512F783009BC996 /* PSPDFOutlineCell.m in Sources */,
+				78692EB81512F797009BC996 /* PSPDFIconGenerator.m in Sources */,
+				78687AA715210E040051DC1E /* PSPDFGridView.m in Sources */,
+				78687AAB15210E040051DC1E /* PSPDFGridViewCell.m in Sources */,
+				78687AB115210E040051DC1E /* PSPDFGridViewLayoutStrategies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784BC22C14EC55B300F55047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784BC22614EC55A000F55047 /* TouchVersionFile */;
+			targetProxy = 784BC22B14EC55B300F55047 /* PBXContainerItemProxy */;
+		};
+		784BC22E14EC55B600F55047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784BC22614EC55A000F55047 /* TouchVersionFile */;
+			targetProxy = 784BC22D14EC55B600F55047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		780B4174146E7DAB00DF07F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		780B4175146E7DAB00DF07F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		780B4177146E7DAB00DF07F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/PSPDFKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSPDFKit-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/Externals/libturbojpeg\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		780B4178146E7DAB00DF07F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/PSPDFKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSPDFKit-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/Externals/libturbojpeg\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7824B13E14A20A990053639E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/PSPDFKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSPDFKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					kPSPDFKitDemoMode,
+					"$(inherited)",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/Externals/libturbojpeg\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = PSPDFKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7824B13F14A20A990053639E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/PSPDFKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSPDFKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = kPSPDFKitDemoMode;
+				GCC_THUMB_SUPPORT = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/Externals/libturbojpeg\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = PSPDFKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		784BC22814EC55A000F55047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		784BC22914EC55A000F55047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		780B4163146E7DAB00DF07F1 /* Build configuration list for PBXProject "PSPDFKit-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780B4174146E7DAB00DF07F1 /* Debug */,
+				780B4175146E7DAB00DF07F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780B4176146E7DAB00DF07F1 /* Build configuration list for PBXNativeTarget "PSPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780B4177146E7DAB00DF07F1 /* Debug */,
+				780B4178146E7DAB00DF07F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7824B13D14A20A990053639E /* Build configuration list for PBXNativeTarget "PSPDFKit-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7824B13E14A20A990053639E /* Debug */,
+				7824B13F14A20A990053639E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784BC22714EC55A000F55047 /* Build configuration list for PBXAggregateTarget "TouchVersionFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784BC22814EC55A000F55047 /* Debug */,
+				784BC22914EC55A000F55047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 780B4160146E7DAB00DF07F1 /* Project object */;
+}

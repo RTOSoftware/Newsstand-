@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--input</key>
+	<array>
+		<string>.</string>
+	</array>
+	<key>--project-name</key>
+	<string>PSPDFKit</string>
+	<key>--project-company</key>
+	<string>Peter Steinberger</string>
+	<key>--company-id</key>
+	<string>com.petersteinberger</string>
+	<key>--output</key>
+	<string>documentation</string>
+	<key>--no-install-docset</key>
+	<true/>
+	<key>--docset-feed-url</key>
+	<string>http://pspdfkit.com/downloads/%DOCSETATOMFILENAME</string>
+	<key>--docset-package-url</key>
+	<string>http://pspdfkit.com/downloads/%DOCSETPACKAGEFILENAME</string>
+	<key>--publish-docset</key>
+	<false/>
+	<key>--no-repeat-first-par</key>
+	<true/>
+	<key>--create-html</key>
+	<true/>
+	<key>--verbose</key>
+	<integer>0</integer>
+	<key>--ignore</key>
+	<array>
+		<string>Examples</string>
+		<string>PSPDFKit-Demo</string>
+		<string>.m</string>
+	</array>
+</dict>
+</plist>
